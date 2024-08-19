@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "layersofdescent:block/torbernite_block",
+    "up": "layersofdescent:block/torbernite_block",
+    "north": "layersofdescent:block/torbernite_block",
+    "east": "layersofdescent:block/torbernite_block",
+    "south": "layersofdescent:block/torbernite_block",
+    "west": "layersofdescent:block/torbernite_block",
+    "particle": "layersofdescent:block/torbernite_block"
+  },
+  "render_type": "solid"
+}

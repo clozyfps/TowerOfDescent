@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "layersofdescent:block/chalcanthite_block",
+    "up": "layersofdescent:block/chalcanthite_block",
+    "north": "layersofdescent:block/chalcanthite_block",
+    "east": "layersofdescent:block/chalcanthite_block",
+    "south": "layersofdescent:block/chalcanthite_block",
+    "west": "layersofdescent:block/chalcanthite_block",
+    "particle": "layersofdescent:block/chalcanthite_block"
+  },
+  "render_type": "solid"
+}

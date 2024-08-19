@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "layersofdescent:block/limbo_portal_ew"
+    },
+    "axis=x": {
+      "model": "layersofdescent:block/limbo_portal_ns"
+    }
+  }
+}

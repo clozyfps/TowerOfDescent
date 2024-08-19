@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "layersofdescent:mossy_stone",
+    "layersofdescent:sapphire_cluster",
+    "layersofdescent:sapphire_block",
+    "layersofdescent:topaz_cluster",
+    "layersofdescent:topaz_block",
+    "layersofdescent:jade_cluster",
+    "layersofdescent:jade_block"
+  ]
+}

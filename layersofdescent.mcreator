@@ -728,6 +728,22 @@
         ]
       },
       "path": "~/Blocks"
+    },
+    {
+      "name": "LimboAmethystClusterFeature",
+      "type": "feature",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "limbo_amethyst_cluster_feature",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/layersofdescent/worldgen/configured_feature/limbo_amethyst_cluster_feature.json",
+          "src/main/resources/data/layersofdescent/forge/biome_modifier/limbo_amethyst_cluster_feature_biome_modifier.json",
+          "src/main/resources/data/layersofdescent/worldgen/placed_feature/limbo_amethyst_cluster_feature.json"
+        ]
+      },
+      "path": "~/Features/Limbo"
     }
   ],
   "variable_elements": [

@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "layersofdescent:limbo_caves",
+  "features": "layersofdescent:limbo_amethyst_cluster_feature",
+  "step": "surface_structures"
+}

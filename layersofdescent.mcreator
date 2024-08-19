@@ -11,7 +11,8 @@
           "src/main/java/net/mcreator/layersofdescent/procedures/TestProcedureProcedure.java"
         ],
         "dependencies": []
-      }
+      },
+      "path": "~/Procedures"
     }
   ],
   "variable_elements": [],
@@ -22,7 +23,12 @@
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "Procedures",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "layersofdescent",

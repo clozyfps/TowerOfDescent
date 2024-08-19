@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "layersofdescent:limbo_caves",
+  "features": "layersofdescent:limbo_blob_feature_3",
+  "step": "surface_structures"
+}

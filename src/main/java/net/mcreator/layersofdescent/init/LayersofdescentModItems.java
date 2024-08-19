@@ -12,8 +12,11 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.layersofdescent.item.TopazItem;
 import net.mcreator.layersofdescent.item.TestItemItem;
+import net.mcreator.layersofdescent.item.SapphireItem;
 import net.mcreator.layersofdescent.item.LimboItem;
+import net.mcreator.layersofdescent.item.JadeItem;
 import net.mcreator.layersofdescent.LayersofdescentMod;
 
 public class LayersofdescentModItems {
@@ -27,6 +30,9 @@ public class LayersofdescentModItems {
 	public static final RegistryObject<Item> SAPPHIRE_BLOCK = block(LayersofdescentModBlocks.SAPPHIRE_BLOCK);
 	public static final RegistryObject<Item> LIMBO = REGISTRY.register("limbo", () -> new LimboItem());
 	public static final RegistryObject<Item> TEST_ITEM = REGISTRY.register("test_item", () -> new TestItemItem());
+	public static final RegistryObject<Item> JADE = REGISTRY.register("jade", () -> new JadeItem());
+	public static final RegistryObject<Item> SAPPHIRE = REGISTRY.register("sapphire", () -> new SapphireItem());
+	public static final RegistryObject<Item> TOPAZ = REGISTRY.register("topaz", () -> new TopazItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

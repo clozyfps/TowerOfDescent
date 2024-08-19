@@ -1,13 +1,18 @@
 {
-  "item.layersofdescent.limbo": "TEMP",
-  "biome.layersofdescent.limbo_caves": "Limbo Caves",
   "subtitles.voice": "",
-  "block.layersofdescent.jade_cluster": "Jade Cluster",
-  "block.layersofdescent.sapphire_block": "Sapphire Block",
   "block.layersofdescent.topaz_cluster": "Topaz Cluster",
-  "block.layersofdescent.sapphire_cluster": "Sapphire Cluster",
   "block.layersofdescent.jade_block": "Jade Block",
+  "block.layersofdescent.mossy_stone": "Mossy Stone",
+  "item.layersofdescent.limbo": "TEMP",
+  "item.layersofdescent.topaz": "Topaz",
+  "item_group.layersofdescent.lod_blocks": "Blocks",
+  "biome.layersofdescent.limbo_caves": "Limbo Caves",
+  "block.layersofdescent.jade_cluster": "Jade Cluster",
+  "item.layersofdescent.sapphire": "Sapphire",
+  "item_group.layersofdescent.lod_items": "Items",
+  "block.layersofdescent.sapphire_block": "Sapphire Block",
+  "item.layersofdescent.jade": "Jade",
+  "block.layersofdescent.sapphire_cluster": "Sapphire Cluster",
   "block.layersofdescent.topaz_block": "Topaz Block",
-  "item.layersofdescent.test_item": "Test Item",
-  "block.layersofdescent.mossy_stone": "Mossy Stone"
+  "item.layersofdescent.test_item": "Test Item"
 }

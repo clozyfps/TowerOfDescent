@@ -17,6 +17,10 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.layersofdescent.init.LayersofdescentModTabs;
+import net.mcreator.layersofdescent.init.LayersofdescentModItems;
+import net.mcreator.layersofdescent.init.LayersofdescentModBlocks;
+
 import java.util.function.Supplier;
 import java.util.function.Function;
 import java.util.function.BiConsumer;
@@ -36,6 +40,12 @@ public class LayersofdescentMod {
 		// End of user code block mod constructor
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+
+		LayersofdescentModBlocks.REGISTRY.register(bus);
+
+		LayersofdescentModItems.REGISTRY.register(bus);
+
+		LayersofdescentModTabs.REGISTRY.register(bus);
 
 		// Start of user code block mod init
 		// End of user code block mod init

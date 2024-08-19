@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "layersofdescent:block/orpiment_cluster",
+    "particle": "layersofdescent:block/orpiment_cluster"
+  },
+  "render_type": "cutout"
+}

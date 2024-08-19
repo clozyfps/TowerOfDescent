@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "layersofdescent:block/orpiment_block",
+    "up": "layersofdescent:block/orpiment_block",
+    "north": "layersofdescent:block/orpiment_block",
+    "east": "layersofdescent:block/orpiment_block",
+    "south": "layersofdescent:block/orpiment_block",
+    "west": "layersofdescent:block/orpiment_block",
+    "particle": "layersofdescent:block/orpiment_block"
+  },
+  "render_type": "solid"
+}

@@ -11,15 +11,235 @@
           "src/main/java/net/mcreator/layersofdescent/procedures/TestProcedureProcedure.java"
         ],
         "dependencies": []
+      }
+    },
+    {
+      "name": "LimboCaves",
+      "type": "biome",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "limbo_caves",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/layersofdescent/worldgen/biome/limbo_caves.json"
+        ]
       },
-      "path": "~/Procedures"
+      "path": "~/Biomes/Limbo"
+    },
+    {
+      "name": "JadeBlock",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jade_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/layersofdescent/loot_tables/blocks/jade_block.json",
+          "src/main/resources/assets/layersofdescent/models/item/jade_block.json",
+          "src/main/resources/assets/layersofdescent/blockstates/jade_block.json",
+          "src/main/java/net/mcreator/layersofdescent/block/JadeBlockBlock.java",
+          "src/main/resources/assets/layersofdescent/models/block/jade_block.json"
+        ]
+      },
+      "path": "~/Blocks/Limbo"
+    },
+    {
+      "name": "TopazBlock",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "topaz_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/layersofdescent/block/TopazBlockBlock.java",
+          "src/main/resources/assets/layersofdescent/models/block/topaz_block.json",
+          "src/main/resources/data/layersofdescent/loot_tables/blocks/topaz_block.json",
+          "src/main/resources/assets/layersofdescent/models/item/topaz_block.json",
+          "src/main/resources/assets/layersofdescent/blockstates/topaz_block.json"
+        ]
+      },
+      "path": "~/Blocks/Limbo"
+    },
+    {
+      "name": "JadeCluster",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jade_cluster",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/layersofdescent/models/block/jade_cluster.json",
+          "src/main/resources/assets/layersofdescent/blockstates/jade_cluster.json",
+          "src/main/java/net/mcreator/layersofdescent/block/JadeClusterBlock.java",
+          "src/main/resources/data/layersofdescent/loot_tables/blocks/jade_cluster.json",
+          "src/main/resources/assets/layersofdescent/models/item/jade_cluster.json"
+        ]
+      },
+      "path": "~/Blocks/Limbo"
+    },
+    {
+      "name": "MossyStone",
+      "type": "block",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mossy_stone",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/layersofdescent/block/MossyStoneBlock.java",
+          "src/main/resources/assets/layersofdescent/blockstates/mossy_stone.json",
+          "src/main/resources/assets/layersofdescent/models/block/mossy_stone.json",
+          "src/main/resources/data/layersofdescent/loot_tables/blocks/mossy_stone.json",
+          "src/main/resources/assets/layersofdescent/models/item/mossy_stone.json"
+        ]
+      },
+      "path": "~/Blocks/Limbo"
+    },
+    {
+      "name": "NoPlaceOnAir",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "no_place_on_air",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/layersofdescent/procedures/NoPlaceOnAirProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks/Procedures"
+    },
+    {
+      "name": "TopazCluster",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "topaz_cluster",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/layersofdescent/blockstates/topaz_cluster.json",
+          "src/main/java/net/mcreator/layersofdescent/block/TopazClusterBlock.java",
+          "src/main/resources/assets/layersofdescent/models/block/topaz_cluster.json",
+          "src/main/resources/data/layersofdescent/loot_tables/blocks/topaz_cluster.json",
+          "src/main/resources/assets/layersofdescent/models/item/topaz_cluster.json"
+        ]
+      },
+      "path": "~/Blocks/Limbo"
+    },
+    {
+      "name": "SapphireCluster",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphire_cluster",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/layersofdescent/blockstates/sapphire_cluster.json",
+          "src/main/resources/assets/layersofdescent/models/item/sapphire_cluster.json",
+          "src/main/java/net/mcreator/layersofdescent/block/SapphireClusterBlock.java",
+          "src/main/resources/assets/layersofdescent/models/block/sapphire_cluster.json",
+          "src/main/resources/data/layersofdescent/loot_tables/blocks/sapphire_cluster.json"
+        ]
+      },
+      "path": "~/Blocks/Limbo"
+    },
+    {
+      "name": "SapphireBlock",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphire_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/layersofdescent/loot_tables/blocks/sapphire_block.json",
+          "src/main/resources/assets/layersofdescent/blockstates/sapphire_block.json",
+          "src/main/resources/assets/layersofdescent/models/item/sapphire_block.json",
+          "src/main/java/net/mcreator/layersofdescent/block/SapphireBlockBlock.java",
+          "src/main/resources/assets/layersofdescent/models/block/sapphire_block.json"
+        ]
+      },
+      "path": "~/Blocks/Limbo"
+    },
+    {
+      "name": "Limbo",
+      "type": "dimension",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "limbo",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/layersofdescent/world/dimension/LimboDimension.java",
+          "src/main/java/net/mcreator/layersofdescent/world/teleporter/LimboPortalShape.java",
+          "src/main/resources/assets/layersofdescent/blockstates/limbo_portal.json",
+          "src/main/resources/assets/layersofdescent/models/item/limbo.json",
+          "src/main/java/net/mcreator/layersofdescent/item/LimboItem.java",
+          "src/main/java/net/mcreator/layersofdescent/block/LimboPortalBlock.java",
+          "src/main/resources/data/layersofdescent/dimension_type/limbo.json",
+          "src/main/resources/assets/layersofdescent/models/block/limbo_portal_ns.json",
+          "src/main/resources/assets/layersofdescent/models/block/limbo_portal_ew.json",
+          "src/main/resources/data/layersofdescent/dimension/limbo.json",
+          "src/main/java/net/mcreator/layersofdescent/world/teleporter/LimboTeleporter.java"
+        ]
+      },
+      "path": "~/Biomes/Limbo"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
-  "tag_elements": {},
+  "tag_elements": {
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:SapphireBlock",
+      "~CUSTOM:SapphireCluster",
+      "~CUSTOM:TopazCluster",
+      "~CUSTOM:MossyStone",
+      "~CUSTOM:JadeCluster",
+      "~CUSTOM:TopazBlock",
+      "~CUSTOM:JadeBlock"
+    ],
+    "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~Blocks.STONE#0",
+      "~CUSTOM:MossyStone"
+    ]
+  },
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item.layersofdescent.limbo": "TEMP",
+      "biome.layersofdescent.limbo_caves": "Limbo Caves",
+      "block.layersofdescent.jade_cluster": "Jade Cluster",
+      "block.layersofdescent.sapphire_block": "Sapphire Block",
+      "block.layersofdescent.topaz_cluster": "Topaz Cluster",
+      "block.layersofdescent.sapphire_cluster": "Sapphire Cluster",
+      "block.layersofdescent.jade_block": "Jade Block",
+      "block.layersofdescent.topaz_block": "Topaz Block",
+      "block.layersofdescent.mossy_stone": "Mossy Stone"
+    }
   },
   "foldersRoot": {
     "name": "~",

@@ -1,0 +1,10 @@
+{
+  "voice": {
+    "sounds": [
+      {
+        "name": "layersofdescent:voice_sans",
+        "stream": false
+      }
+    ]
+  }
+}

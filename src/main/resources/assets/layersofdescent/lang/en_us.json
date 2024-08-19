@@ -1,11 +1,13 @@
 {
   "item.layersofdescent.limbo": "TEMP",
   "biome.layersofdescent.limbo_caves": "Limbo Caves",
+  "subtitles.voice": "",
   "block.layersofdescent.jade_cluster": "Jade Cluster",
   "block.layersofdescent.sapphire_block": "Sapphire Block",
   "block.layersofdescent.topaz_cluster": "Topaz Cluster",
   "block.layersofdescent.sapphire_cluster": "Sapphire Cluster",
   "block.layersofdescent.jade_block": "Jade Block",
   "block.layersofdescent.topaz_block": "Topaz Block",
+  "item.layersofdescent.test_item": "Test Item",
   "block.layersofdescent.mossy_stone": "Mossy Stone"
 }

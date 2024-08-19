@@ -1,0 +1,53 @@
+{
+  "_fv": 60,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 0,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "bigblack.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "BlackScreenDisplay"
+          },
+          "x": -237,
+          "y": -130
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_display_voice",
+          "text": {
+            "fixedValue": "",
+            "name": "DisplayVoice"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "BlackScreenDisplay"
+          },
+          "x": 172,
+          "y": 107
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

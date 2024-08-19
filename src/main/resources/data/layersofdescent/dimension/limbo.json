@@ -6,7 +6,7 @@
       "type": "minecraft:multi_noise",
       "biomes": [
         {
-          "biome": "layersofdescent:deleted_mod_element",
+          "biome": "layersofdescent:limbo_caves",
           "parameters": {
             "temperature": 0,
             "humidity": 0,
@@ -170,7 +170,7 @@
             "if_true": {
               "type": "minecraft:biome",
               "biome_is": [
-                "layersofdescent:deleted_mod_element"
+                "layersofdescent:limbo_caves"
               ]
             },
             "then_run": {

@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
+    "layersofdescent:small_stone_bricks",
+    "layersofdescent:stone_pillar",
     "layersofdescent:sapphire_block",
     "layersofdescent:sapphire_cluster",
     "layersofdescent:topaz_cluster",

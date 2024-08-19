@@ -12,7 +12,7 @@ import net.minecraft.core.BlockPos;
 
 public class SapphireBlockBlock extends Block {
 	public SapphireBlockBlock() {
-		super(BlockBehaviour.Properties.of().sound(SoundType.AMETHYST).strength(2f, 3f).lightLevel(s -> 8).requiresCorrectToolForDrops().hasPostProcess((bs, br, bp) -> true).emissiveRendering((bs, br, bp) -> true));
+		super(BlockBehaviour.Properties.of().sound(SoundType.AMETHYST).strength(2f, 3f).lightLevel(s -> 5).requiresCorrectToolForDrops().hasPostProcess((bs, br, bp) -> true).emissiveRendering((bs, br, bp) -> true));
 	}
 
 	@Override

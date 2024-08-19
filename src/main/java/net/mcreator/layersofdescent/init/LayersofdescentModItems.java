@@ -33,6 +33,8 @@ public class LayersofdescentModItems {
 	public static final RegistryObject<Item> JADE = REGISTRY.register("jade", () -> new JadeItem());
 	public static final RegistryObject<Item> SAPPHIRE = REGISTRY.register("sapphire", () -> new SapphireItem());
 	public static final RegistryObject<Item> TOPAZ = REGISTRY.register("topaz", () -> new TopazItem());
+	public static final RegistryObject<Item> STONE_PILLAR = block(LayersofdescentModBlocks.STONE_PILLAR);
+	public static final RegistryObject<Item> SMALL_STONE_BRICKS = block(LayersofdescentModBlocks.SMALL_STONE_BRICKS);
 
 	// Start of user code block custom items
 	// End of user code block custom items

@@ -21,7 +21,7 @@ import net.mcreator.layersofdescent.procedures.NoPlaceOnAirProcedure;
 
 public class TopazClusterBlock extends Block {
 	public TopazClusterBlock() {
-		super(BlockBehaviour.Properties.of().sound(SoundType.AMETHYST_CLUSTER).strength(1f).lightLevel(s -> 8).requiresCorrectToolForDrops().noCollission().noOcclusion().hasPostProcess((bs, br, bp) -> true).emissiveRendering((bs, br, bp) -> true)
+		super(BlockBehaviour.Properties.of().sound(SoundType.AMETHYST_CLUSTER).strength(1f).lightLevel(s -> 5).requiresCorrectToolForDrops().noCollission().noOcclusion().hasPostProcess((bs, br, bp) -> true).emissiveRendering((bs, br, bp) -> true)
 				.isRedstoneConductor((bs, br, bp) -> false));
 	}
 

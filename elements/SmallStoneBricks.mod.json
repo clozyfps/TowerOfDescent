@@ -2,17 +2,17 @@
   "_fv": 60,
   "_type": "block",
   "definition": {
-    "texture": "torbernite_block",
-    "textureTop": "torbernite_block",
-    "textureLeft": "torbernite_block",
-    "textureFront": "torbernite_block",
-    "textureRight": "torbernite_block",
-    "textureBack": "torbernite_block",
+    "texture": "stone_bricks",
+    "textureTop": "stone_bricks",
+    "textureLeft": "stone_bricks",
+    "textureFront": "stone_bricks",
+    "textureRight": "stone_bricks",
+    "textureBack": "stone_bricks",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
     "enablePitch": false,
-    "emissiveRendering": true,
+    "emissiveRendering": false,
     "displayFluidOverlay": false,
     "itemTexture": "",
     "particleTexture": "",
@@ -33,12 +33,12 @@
         "subtract": false
       }
     ],
-    "name": "Jade Block",
+    "name": "Small Stone Bricks",
     "specialInformation": {
       "fixedValue": []
     },
-    "hardness": 2.0,
-    "resistance": 3.0,
+    "hardness": 1.5,
+    "resistance": 6.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
@@ -56,7 +56,7 @@
     "canRedstoneConnect": false,
     "lightOpacity": 15,
     "material": {
-      "value": "AMETHYST"
+      "value": "ROCK"
     },
     "tickRate": 0,
     "tickRandomly": false,
@@ -81,7 +81,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "AMETHYST_BLOCK"
+      "value": "STONE"
     },
     "breakSound": {
       "value": ""
@@ -98,7 +98,7 @@
     "stepSound": {
       "value": ""
     },
-    "luminance": 5,
+    "luminance": 0,
     "unbreakable": false,
     "breakHarvestLevel": 0,
     "isBonemealable": false,

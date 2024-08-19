@@ -98,7 +98,7 @@
     "stepSound": {
       "value": ""
     },
-    "luminance": 8,
+    "luminance": 5,
     "unbreakable": false,
     "breakHarvestLevel": 0,
     "placingCondition": {

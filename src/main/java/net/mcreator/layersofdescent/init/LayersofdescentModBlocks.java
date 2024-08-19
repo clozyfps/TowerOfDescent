@@ -12,6 +12,8 @@ import net.minecraft.world.level.block.Block;
 
 import net.mcreator.layersofdescent.block.TopazClusterBlock;
 import net.mcreator.layersofdescent.block.TopazBlockBlock;
+import net.mcreator.layersofdescent.block.StonePillarBlock;
+import net.mcreator.layersofdescent.block.SmallStoneBricksBlock;
 import net.mcreator.layersofdescent.block.SapphireClusterBlock;
 import net.mcreator.layersofdescent.block.SapphireBlockBlock;
 import net.mcreator.layersofdescent.block.MossyStoneBlock;
@@ -30,6 +32,8 @@ public class LayersofdescentModBlocks {
 	public static final RegistryObject<Block> SAPPHIRE_CLUSTER = REGISTRY.register("sapphire_cluster", () -> new SapphireClusterBlock());
 	public static final RegistryObject<Block> SAPPHIRE_BLOCK = REGISTRY.register("sapphire_block", () -> new SapphireBlockBlock());
 	public static final RegistryObject<Block> LIMBO_PORTAL = REGISTRY.register("limbo_portal", () -> new LimboPortalBlock());
+	public static final RegistryObject<Block> STONE_PILLAR = REGISTRY.register("stone_pillar", () -> new StonePillarBlock());
+	public static final RegistryObject<Block> SMALL_STONE_BRICKS = REGISTRY.register("small_stone_bricks", () -> new SmallStoneBricksBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

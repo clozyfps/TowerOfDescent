@@ -692,6 +692,42 @@
         "files": []
       },
       "path": "~/Misc/Tabs"
+    },
+    {
+      "name": "StonePillar",
+      "type": "block",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_pillar",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/layersofdescent/models/block/stone_pillar.json",
+          "src/main/resources/data/layersofdescent/loot_tables/blocks/stone_pillar.json",
+          "src/main/resources/assets/layersofdescent/blockstates/stone_pillar.json",
+          "src/main/java/net/mcreator/layersofdescent/block/StonePillarBlock.java",
+          "src/main/resources/assets/layersofdescent/models/item/stone_pillar.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "SmallStoneBricks",
+      "type": "block",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "small_stone_bricks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/layersofdescent/blockstates/small_stone_bricks.json",
+          "src/main/resources/assets/layersofdescent/models/item/small_stone_bricks.json",
+          "src/main/resources/data/layersofdescent/loot_tables/blocks/small_stone_bricks.json",
+          "src/main/resources/assets/layersofdescent/models/block/small_stone_bricks.json",
+          "src/main/java/net/mcreator/layersofdescent/block/SmallStoneBricksBlock.java"
+        ]
+      },
+      "path": "~/Blocks"
     }
   ],
   "variable_elements": [
@@ -738,6 +774,8 @@
   ],
   "tag_elements": {
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:SmallStoneBricks",
+      "~CUSTOM:StonePillar",
       "~CUSTOM:SapphireBlock",
       "~CUSTOM:SapphireCluster",
       "~CUSTOM:TopazCluster",
@@ -765,10 +803,12 @@
       "block.layersofdescent.jade_cluster": "Jade Cluster",
       "item.layersofdescent.sapphire": "Sapphire",
       "item_group.layersofdescent.lod_items": "Items",
+      "block.layersofdescent.small_stone_bricks": "Small Stone Bricks",
       "block.layersofdescent.sapphire_block": "Sapphire Block",
       "item.layersofdescent.jade": "Jade",
       "block.layersofdescent.sapphire_cluster": "Sapphire Cluster",
       "block.layersofdescent.topaz_block": "Topaz Block",
+      "block.layersofdescent.stone_pillar": "Stone Pillar",
       "item.layersofdescent.test_item": "Test Item"
     }
   },

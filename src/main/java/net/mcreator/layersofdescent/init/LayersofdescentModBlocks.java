@@ -20,6 +20,8 @@ import net.mcreator.layersofdescent.block.MossyStoneBlock;
 import net.mcreator.layersofdescent.block.LimboPortalBlock;
 import net.mcreator.layersofdescent.block.JadeClusterBlock;
 import net.mcreator.layersofdescent.block.JadeBlockBlock;
+import net.mcreator.layersofdescent.block.CrackedStonePillarBlock;
+import net.mcreator.layersofdescent.block.CrackedSmallStoneBricksBlock;
 import net.mcreator.layersofdescent.LayersofdescentMod;
 
 public class LayersofdescentModBlocks {
@@ -34,6 +36,8 @@ public class LayersofdescentModBlocks {
 	public static final RegistryObject<Block> LIMBO_PORTAL = REGISTRY.register("limbo_portal", () -> new LimboPortalBlock());
 	public static final RegistryObject<Block> STONE_PILLAR = REGISTRY.register("stone_pillar", () -> new StonePillarBlock());
 	public static final RegistryObject<Block> SMALL_STONE_BRICKS = REGISTRY.register("small_stone_bricks", () -> new SmallStoneBricksBlock());
+	public static final RegistryObject<Block> CRACKED_STONE_PILLAR = REGISTRY.register("cracked_stone_pillar", () -> new CrackedStonePillarBlock());
+	public static final RegistryObject<Block> CRACKED_SMALL_STONE_BRICKS = REGISTRY.register("cracked_small_stone_bricks", () -> new CrackedSmallStoneBricksBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

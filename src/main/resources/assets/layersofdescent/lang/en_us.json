@@ -9,11 +9,13 @@
   "biome.layersofdescent.limbo_caves": "Limbo Caves",
   "block.layersofdescent.jade_cluster": "Jade Cluster",
   "item.layersofdescent.sapphire": "Sapphire",
+  "block.layersofdescent.cracked_small_stone_bricks": "Cracked Small Stone Bricks",
   "item_group.layersofdescent.lod_items": "Items",
   "block.layersofdescent.small_stone_bricks": "Small Stone Bricks",
   "block.layersofdescent.sapphire_block": "Sapphire Block",
   "item.layersofdescent.jade": "Jade",
   "block.layersofdescent.sapphire_cluster": "Sapphire Cluster",
+  "block.layersofdescent.cracked_stone_pillar": "Cracked Stone Pillar",
   "block.layersofdescent.topaz_block": "Topaz Block",
   "block.layersofdescent.stone_pillar": "Stone Pillar",
   "item.layersofdescent.test_item": "Test Item"

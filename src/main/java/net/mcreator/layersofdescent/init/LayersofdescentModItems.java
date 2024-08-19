@@ -35,6 +35,8 @@ public class LayersofdescentModItems {
 	public static final RegistryObject<Item> TOPAZ = REGISTRY.register("topaz", () -> new TopazItem());
 	public static final RegistryObject<Item> STONE_PILLAR = block(LayersofdescentModBlocks.STONE_PILLAR);
 	public static final RegistryObject<Item> SMALL_STONE_BRICKS = block(LayersofdescentModBlocks.SMALL_STONE_BRICKS);
+	public static final RegistryObject<Item> CRACKED_STONE_PILLAR = block(LayersofdescentModBlocks.CRACKED_STONE_PILLAR);
+	public static final RegistryObject<Item> CRACKED_SMALL_STONE_BRICKS = block(LayersofdescentModBlocks.CRACKED_SMALL_STONE_BRICKS);
 
 	// Start of user code block custom items
 	// End of user code block custom items

@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
+    "layersofdescent:cracked_small_stone_bricks",
+    "layersofdescent:cracked_stone_pillar",
     "layersofdescent:small_stone_bricks",
     "layersofdescent:stone_pillar",
     "layersofdescent:sapphire_block",

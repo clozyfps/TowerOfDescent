@@ -991,8 +991,8 @@
       "gui.layersofdescent.class_selection.button_ssl": "§l\u003e",
       "advancements.layers_of_descension.descr": "Begin Your Journey To The Top, Starting At Limbo.",
       "block.layersofdescent.jade_block": "Jade Block",
-      "item_group.layersofdescent.lod_blocks": "Blocks",
       "item.layersofdescent.limbo": "TEMP",
+      "item_group.layersofdescent.lod_blocks": "Blocks",
       "item.layersofdescent.sapphire": "Sapphire",
       "gui.layersofdescent.class_selection.label_sslselect_your_class": "§lSelect Your Class",
       "gui.layersofdescent.class_selection.button_select": "Select",
@@ -1120,8 +1120,13 @@
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
-    "mcreatorDependencies": [],
+    "mcreatorDependencies": [
+      "kleidersplayerrenderer",
+      "geckolib",
+      "playeranimator"
+    ],
     "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.layersofdescent"
   },
   "mcreatorVersion": 202400118518

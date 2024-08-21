@@ -1,0 +1,26 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "layersofdescent:sapphire_cluster"
+    },
+    "title": {
+      "translate": "advancements.layers_of_descension.title"
+    },
+    "description": {
+      "translate": "advancements.layers_of_descension.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "layers_of_descension_0": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "layersofdescent:limbo"
+      }
+    }
+  }
+}

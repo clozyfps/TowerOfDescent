@@ -186,17 +186,17 @@
       "registry_name": "limbo",
       "metadata": {
         "files": [
-          "src/main/resources/assets/layersofdescent/blockstates/limbo_portal.json",
-          "src/main/resources/assets/layersofdescent/models/block/limbo_portal_ew.json",
           "src/main/java/net/mcreator/layersofdescent/world/dimension/LimboDimension.java",
-          "src/main/java/net/mcreator/layersofdescent/world/teleporter/LimboTeleporter.java",
-          "src/main/resources/data/layersofdescent/dimension_type/limbo.json",
-          "src/main/java/net/mcreator/layersofdescent/item/LimboItem.java",
           "src/main/java/net/mcreator/layersofdescent/world/teleporter/LimboPortalShape.java",
-          "src/main/resources/data/layersofdescent/dimension/limbo.json",
-          "src/main/resources/assets/layersofdescent/models/block/limbo_portal_ns.json",
+          "src/main/resources/assets/layersofdescent/blockstates/limbo_portal.json",
+          "src/main/resources/assets/layersofdescent/models/item/limbo.json",
+          "src/main/java/net/mcreator/layersofdescent/item/LimboItem.java",
           "src/main/java/net/mcreator/layersofdescent/block/LimboPortalBlock.java",
-          "src/main/resources/assets/layersofdescent/models/item/limbo.json"
+          "src/main/resources/data/layersofdescent/dimension_type/limbo.json",
+          "src/main/resources/assets/layersofdescent/models/block/limbo_portal_ns.json",
+          "src/main/resources/assets/layersofdescent/models/block/limbo_portal_ew.json",
+          "src/main/resources/data/layersofdescent/dimension/limbo.json",
+          "src/main/java/net/mcreator/layersofdescent/world/teleporter/LimboTeleporter.java"
         ]
       },
       "path": "~/Dimensions"
@@ -734,6 +734,150 @@
         ]
       },
       "path": "~/Misc/Loot Tables/Limbo"
+    },
+    {
+      "name": "ClassSelection",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "class_selection",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/layersofdescent/network/ClassSelectionButtonMessage.java",
+          "src/main/java/net/mcreator/layersofdescent/world/inventory/ClassSelectionMenu.java",
+          "src/main/java/net/mcreator/layersofdescent/client/gui/ClassSelectionScreen.java"
+        ]
+      },
+      "path": "~/GUI"
+    },
+    {
+      "name": "ColorCodeSet",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "color_code_set",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/layersofdescent/procedures/ColorCodeSetProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "ForwardClass",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forward_class",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/layersofdescent/procedures/ForwardClassProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/GUI/Procedures"
+    },
+    {
+      "name": "LayersOfDescension",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "layers_of_descension",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/layersofdescent/advancements/layers_of_descension.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "DisplayClassInfo2",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "display_class_info_2",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/layersofdescent/procedures/DisplayClassInfo2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/GUI/Procedures"
+    },
+    {
+      "name": "ClassDisplay",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "class_display",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/layersofdescent/procedures/ClassDisplayProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/GUI/Procedures"
+    },
+    {
+      "name": "DisplayClassInfo1",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "display_class_info_1",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/layersofdescent/procedures/DisplayClassInfo1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/GUI/Procedures"
+    },
+    {
+      "name": "BackwardsClass",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "backwards_class",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/layersofdescent/procedures/BackwardsClassProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/GUI/Procedures"
+    },
+    {
+      "name": "SelectClass",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "select_class",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/layersofdescent/procedures/SelectClassProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/GUI/Procedures"
     }
   ],
   "variable_elements": [
@@ -766,6 +910,30 @@
       "type": "logic",
       "scope": "player_persistent",
       "value": "false"
+    },
+    {
+      "name": "SelectedColorCode",
+      "type": "string",
+      "scope": "player_persistent",
+      "value": ""
+    },
+    {
+      "name": "PlayerClass",
+      "type": "string",
+      "scope": "player_persistent",
+      "value": ""
+    },
+    {
+      "name": "LayerOn",
+      "type": "string",
+      "scope": "player_persistent",
+      "value": ""
+    },
+    {
+      "name": "SelectedClassScreen",
+      "type": "string",
+      "scope": "player_persistent",
+      "value": "Nether Weaver"
     }
   ],
   "sound_elements": [
@@ -793,6 +961,7 @@
       "~CUSTOM:JadeBlock"
     ],
     "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~Blocks.AIR",
       "~Blocks.STONE#0",
       "~CUSTOM:MossyStone"
     ]
@@ -800,51 +969,30 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
+      "block.layersofdescent.jade_block": "Jade Block",
+      "item.layersofdescent.limbo": "TEMP",
+      "item_group.layersofdescent.lod_blocks": "Blocks",
+      "item.layersofdescent.sapphire": "Sapphire",
+      "item.layersofdescent.test_item": "Test Item",
       "subtitles.voice": "",
       "block.layersofdescent.topaz_cluster": "Topaz Cluster",
-      "block.layersofdescent.jade_block": "Jade Block",
       "block.layersofdescent.mossy_stone": "Mossy Stone",
-      "item.layersofdescent.limbo": "TEMP",
       "item.layersofdescent.topaz": "Topaz",
-      "item_group.layersofdescent.lod_blocks": "Blocks",
       "biome.layersofdescent.limbo_caves": "Limbo Caves",
       "block.layersofdescent.jade_cluster": "Jade Cluster",
-      "item.layersofdescent.sapphire": "Sapphire",
-      "block.layersofdescent.cracked_small_stone_bricks": "Cracked Small Stone Bricks",
       "item_group.layersofdescent.lod_items": "Items",
-      "block.layersofdescent.small_stone_bricks": "Small Stone Bricks",
       "block.layersofdescent.sapphire_block": "Sapphire Block",
       "item.layersofdescent.jade": "Jade",
       "block.layersofdescent.sapphire_cluster": "Sapphire Cluster",
-      "block.layersofdescent.cracked_stone_pillar": "Cracked Stone Pillar",
-      "block.layersofdescent.topaz_block": "Topaz Block",
-      "block.layersofdescent.stone_pillar": "Stone Pillar",
-      "item.layersofdescent.test_item": "Test Item"
+      "block.layersofdescent.topaz_block": "Topaz Block"
     }
   },
   "foldersRoot": {
     "name": "~",
     "children": [
       {
-        "name": "Procedures",
-        "children": []
-      },
-      {
-        "name": "Blocks",
-        "children": []
-      },
-      {
         "name": "Biomes",
         "children": []
-      },
-      {
-        "name": "Dimensions",
-        "children": [
-          {
-            "name": "Procedures",
-            "children": []
-          }
-        ]
       },
       {
         "name": "Items",
@@ -856,14 +1004,19 @@
         ]
       },
       {
-        "name": "GUI",
-        "children": []
-      },
-      {
-        "name": "Overlay",
+        "name": "Misc",
         "children": [
           {
-            "name": "Procedures",
+            "name": "Loot Tables",
+            "children": [
+              {
+                "name": "Limbo",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Tabs",
             "children": []
           }
         ]
@@ -878,6 +1031,10 @@
         ]
       },
       {
+        "name": "Procedures",
+        "children": []
+      },
+      {
         "name": "Structures",
         "children": [
           {
@@ -887,20 +1044,37 @@
         ]
       },
       {
-        "name": "Misc",
+        "name": "Advancements",
+        "children": []
+      },
+      {
+        "name": "Blocks",
+        "children": []
+      },
+      {
+        "name": "GUI",
         "children": [
           {
-            "name": "Tabs",
+            "name": "Procedures",
             "children": []
-          },
+          }
+        ]
+      },
+      {
+        "name": "Overlay",
+        "children": [
           {
-            "name": "Loot Tables",
-            "children": [
-              {
-                "name": "Limbo",
-                "children": []
-              }
-            ]
+            "name": "Procedures",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Dimensions",
+        "children": [
+          {
+            "name": "Procedures",
+            "children": []
           }
         ]
       }
@@ -921,5 +1095,5 @@
     "currentGenerator": "forge-1.20.1",
     "modElementsPackage": "net.mcreator.layersofdescent"
   },
-  "mcreatorVersion": 202400232117
+  "mcreatorVersion": 202400118518
 }

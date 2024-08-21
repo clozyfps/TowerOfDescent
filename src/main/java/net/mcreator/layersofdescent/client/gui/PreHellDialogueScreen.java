@@ -1,23 +1,9 @@
 package net.mcreator.layersofdescent.client.gui;
 
-import net.minecraft.world.level.Level;
-import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.entity.player.Inventory;
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.network.chat.Component;
-import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
-import net.minecraft.client.gui.GuiGraphics;
-
-import net.mcreator.layersofdescent.world.inventory.PreHellDialogueMenu;
-import net.mcreator.layersofdescent.procedures.DisplayVoiceProcedure;
-import net.mcreator.layersofdescent.procedures.BlackScreenDisplayProcedure;
-
-import java.util.HashMap;
-
-import com.mojang.blaze3d.systems.RenderSystem;
-
 public class PreHellDialogueScreen extends AbstractContainerScreen<PreHellDialogueMenu> {
+
 	private final static HashMap<String, Object> guistate = PreHellDialogueMenu.guistate;
+
 	private final Level world;
 	private final int x, y, z;
 	private final Player entity;
@@ -38,8 +24,11 @@ public class PreHellDialogueScreen extends AbstractContainerScreen<PreHellDialog
 	@Override
 	public void render(GuiGraphics guiGraphics, int mouseX, int mouseY, float partialTicks) {
 		this.renderBackground(guiGraphics);
+
 		super.render(guiGraphics, mouseX, mouseY, partialTicks);
+
 		this.renderTooltip(guiGraphics, mouseX, mouseY);
+
 	}
 
 	@Override
@@ -47,10 +36,17 @@ public class PreHellDialogueScreen extends AbstractContainerScreen<PreHellDialog
 		RenderSystem.setShaderColor(1, 1, 1, 1);
 		RenderSystem.enableBlend();
 		RenderSystem.defaultBlendFunc();
+
 		guiGraphics.blit(texture, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
-		if (BlackScreenDisplayProcedure.execute(entity)) {
+
+		if (
+
+		BlackScreenDisplayProcedure.execute(entity)
+
+		) {
 			guiGraphics.blit(new ResourceLocation("layersofdescent:textures/screens/bigblack.png"), this.leftPos + -451, this.topPos + -167, 0, 0, 1500, 1500, 1500, 1500);
 		}
+
 		RenderSystem.disableBlend();
 	}
 
@@ -60,19 +56,26 @@ public class PreHellDialogueScreen extends AbstractContainerScreen<PreHellDialog
 			this.minecraft.player.closeContainer();
 			return true;
 		}
+
 		return super.keyPressed(key, b, c);
 	}
 
 	@Override
 	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
-		if (BlackScreenDisplayProcedure.execute(entity))
+		if (
+
+		BlackScreenDisplayProcedure.execute(entity)
+
+		)
 			guiGraphics.drawString(this.font,
 
-					DisplayVoiceProcedure.execute(entity), -42, 70, -1, false);
+					DisplayVoiceProcedure.execute(entity), -55, 70, -1, false);
 	}
 
 	@Override
 	public void init() {
 		super.init();
+
 	}
+
 }

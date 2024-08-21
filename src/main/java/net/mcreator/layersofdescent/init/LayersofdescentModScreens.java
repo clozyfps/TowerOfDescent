@@ -12,6 +12,7 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.client.gui.screens.MenuScreens;
 
 import net.mcreator.layersofdescent.client.gui.PreHellDialogueScreen;
+import net.mcreator.layersofdescent.client.gui.ClassSelectionScreen;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class LayersofdescentModScreens {
@@ -19,6 +20,7 @@ public class LayersofdescentModScreens {
 	public static void clientLoad(FMLClientSetupEvent event) {
 		event.enqueueWork(() -> {
 			MenuScreens.register(LayersofdescentModMenus.PRE_HELL_DIALOGUE.get(), PreHellDialogueScreen::new);
+			MenuScreens.register(LayersofdescentModMenus.CLASS_SELECTION.get(), ClassSelectionScreen::new);
 		});
 	}
 }

@@ -3,7 +3,7 @@ package net.mcreator.layersofdescent.world.inventory;
 
 import net.mcreator.layersofdescent.LayersofdescentMod;
 
-public class PreHellDialogueMenu extends AbstractContainerMenu implements Supplier<Map<Integer, Slot>> {
+public class ClassSelectionMenu extends AbstractContainerMenu implements Supplier<Map<Integer, Slot>> {
 	public final static HashMap<String, Object> guistate = new HashMap<>();
 	public final Level world;
 	public final Player entity;
@@ -16,8 +16,8 @@ public class PreHellDialogueMenu extends AbstractContainerMenu implements Suppli
 	private Entity boundEntity = null;
 	private BlockEntity boundBlockEntity = null;
 
-	public PreHellDialogueMenu(int id, Inventory inv, FriendlyByteBuf extraData) {
-		super(LayersofdescentModMenus.PRE_HELL_DIALOGUE.get(), id);
+	public ClassSelectionMenu(int id, Inventory inv, FriendlyByteBuf extraData) {
+		super(LayersofdescentModMenus.CLASS_SELECTION.get(), id);
 		this.entity = inv.player;
 		this.world = inv.player.level();
 		this.internal = new ItemStackHandler(0);

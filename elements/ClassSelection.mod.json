@@ -1,0 +1,148 @@
+{
+  "_fv": 66,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 0,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_sslselect_your_class",
+          "text": {
+            "fixedValue": "§lSelect Your Class"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 166,
+          "y": 7
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_ssl",
+          "text": "§l>",
+          "isUndecorated": true,
+          "onClick": {
+            "name": "ForwardClass"
+          },
+          "width": 40,
+          "height": 20,
+          "x": 276,
+          "y": 134
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_ssl1",
+          "text": "§l<",
+          "isUndecorated": true,
+          "onClick": {
+            "name": "BackwardsClass"
+          },
+          "width": 40,
+          "height": 20,
+          "x": 141,
+          "y": 134
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_class_display",
+          "text": {
+            "fixedValue": "",
+            "name": "ClassDisplay"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 177,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_display_class_info_1",
+          "text": {
+            "fixedValue": "",
+            "name": "DisplayClassInfo1"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 6,
+          "y": 26
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_display_class_info_2",
+          "text": {
+            "fixedValue": "",
+            "name": "DisplayClassInfo2"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 6,
+          "y": 44
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_select",
+          "text": "Select",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "SelectClass"
+          },
+          "width": 56,
+          "height": 20,
+          "x": 186,
+          "y": 161
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "bigblack.png",
+          "use1Xscale": false,
+          "x": 572,
+          "y": 0
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "bigblack.png",
+          "use1Xscale": false,
+          "x": -183,
+          "y": -73
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

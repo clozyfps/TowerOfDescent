@@ -37,7 +37,7 @@
           "displayCondition": {
             "name": "BlackScreenDisplay"
           },
-          "x": 172,
+          "x": 159,
           "y": 107
         }
       }
@@ -47,7 +47,7 @@
       "sy": 18,
       "ox": 11,
       "oy": 15,
-      "snapOnGrid": false
+      "snapOnGrid": true
     }
   }
 }

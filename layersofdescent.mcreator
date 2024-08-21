@@ -1011,6 +1011,108 @@
         ]
       },
       "path": "~/Procedures/Player"
+    },
+    {
+      "name": "MossyStonePillar",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mossy_stone_pillar",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/layersofdescent/loot_tables/blocks/mossy_stone_pillar.json",
+          "src/main/resources/assets/layersofdescent/blockstates/mossy_stone_pillar.json",
+          "src/main/resources/assets/layersofdescent/models/item/mossy_stone_pillar.json",
+          "src/main/java/net/mcreator/layersofdescent/block/MossyStonePillarBlock.java",
+          "src/main/resources/assets/layersofdescent/models/block/mossy_stone_pillar.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "MossySmallStoneBricks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mossy_small_stone_bricks",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/layersofdescent/block/MossySmallStoneBricksBlock.java",
+          "src/main/resources/data/layersofdescent/loot_tables/blocks/mossy_small_stone_bricks.json",
+          "src/main/resources/assets/layersofdescent/models/block/mossy_small_stone_bricks.json",
+          "src/main/resources/assets/layersofdescent/models/item/mossy_small_stone_bricks.json",
+          "src/main/resources/assets/layersofdescent/blockstates/mossy_small_stone_bricks.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "LargeStoneBrick",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "large_stone_brick",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/layersofdescent/models/item/large_stone_brick.json",
+          "src/main/resources/assets/layersofdescent/blockstates/large_stone_brick.json",
+          "src/main/resources/data/layersofdescent/loot_tables/blocks/large_stone_brick.json",
+          "src/main/java/net/mcreator/layersofdescent/block/LargeStoneBrickBlock.java",
+          "src/main/resources/assets/layersofdescent/models/block/large_stone_brick.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "StoneTiles",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_tiles",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/layersofdescent/block/StoneTilesBlock.java",
+          "src/main/resources/data/layersofdescent/loot_tables/blocks/stone_tiles.json",
+          "src/main/resources/assets/layersofdescent/models/block/stone_tiles.json",
+          "src/main/resources/assets/layersofdescent/models/item/stone_tiles.json",
+          "src/main/resources/assets/layersofdescent/blockstates/stone_tiles.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "CrackedStoneTiles",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cracked_stone_tiles",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/layersofdescent/models/block/cracked_stone_tiles.json",
+          "src/main/java/net/mcreator/layersofdescent/block/CrackedStoneTilesBlock.java",
+          "src/main/resources/data/layersofdescent/loot_tables/blocks/cracked_stone_tiles.json",
+          "src/main/resources/assets/layersofdescent/blockstates/cracked_stone_tiles.json",
+          "src/main/resources/assets/layersofdescent/models/item/cracked_stone_tiles.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "MossyStoneTiles",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mossy_stone_tiles",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/layersofdescent/models/item/mossy_stone_tiles.json",
+          "src/main/resources/assets/layersofdescent/blockstates/mossy_stone_tiles.json",
+          "src/main/resources/data/layersofdescent/loot_tables/blocks/mossy_stone_tiles.json",
+          "src/main/java/net/mcreator/layersofdescent/block/MossyStoneTilesBlock.java",
+          "src/main/resources/assets/layersofdescent/models/block/mossy_stone_tiles.json"
+        ]
+      },
+      "path": "~/Blocks"
     }
   ],
   "variable_elements": [
@@ -1093,6 +1195,12 @@
   ],
   "tag_elements": {
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:MossyStoneTiles",
+      "~CUSTOM:CrackedStoneTiles",
+      "~CUSTOM:StoneTiles",
+      "~CUSTOM:LargeStoneBrick",
+      "~CUSTOM:MossySmallStoneBricks",
+      "~CUSTOM:MossyStonePillar",
       "~CUSTOM:CrackedSmallStoneBricks",
       "~CUSTOM:CrackedStonePillar",
       "~CUSTOM:SmallStoneBricks",
@@ -1110,19 +1218,43 @@
       "~CUSTOM:MossyStone"
     ]
   },
-  "tab_element_order": {},
+  "tab_element_order": {
+    "CUSTOM:LODBlocks": [
+      "JadeBlock",
+      "TopazBlock",
+      "JadeCluster",
+      "MossyStone",
+      "TopazCluster",
+      "SapphireCluster",
+      "SapphireBlock",
+      "LargeStoneBrick",
+      "StonePillar",
+      "CrackedStonePillar",
+      "MossyStonePillar",
+      "SmallStoneBricks",
+      "CrackedSmallStoneBricks",
+      "MossySmallStoneBricks",
+      "StoneTiles",
+      "CrackedStoneTiles",
+      "MossyStoneTiles"
+    ]
+  },
   "language_map": {
     "en_us": {
       "gui.layersofdescent.class_selection.button_ssl": "§l\u003e",
       "advancements.layers_of_descension.descr": "Begin Your Journey To The Top, Starting At Limbo.",
+      "block.layersofdescent.cracked_stone_tiles": "Cracked Stone Tiles",
       "block.layersofdescent.jade_block": "Jade Block",
-      "item.layersofdescent.limbo": "TEMP",
+      "block.layersofdescent.mossy_stone_pillar": "Mossy Stone Pillar",
+      "block.layersofdescent.mossy_stone_tiles": "Mossy Stone Tiles",
       "item_group.layersofdescent.lod_blocks": "Blocks",
+      "item.layersofdescent.limbo": "TEMP",
       "item.layersofdescent.sapphire": "Sapphire",
       "gui.layersofdescent.class_selection.label_sslselect_your_class": "§lSelect Your Class",
       "gui.layersofdescent.class_selection.button_select": "Select",
       "block.layersofdescent.cracked_small_stone_bricks": "Cracked Small Stone Bricks",
       "block.layersofdescent.stone_pillar": "Stone Pillar",
+      "block.layersofdescent.stone_tiles": "Stone Tiles",
       "item.layersofdescent.test_item": "Test Item",
       "subtitles.voice": "",
       "block.layersofdescent.topaz_cluster": "Topaz Cluster",
@@ -1131,6 +1263,7 @@
       "item.layersofdescent.topaz": "Topaz",
       "biome.layersofdescent.limbo_caves": "Limbo Caves",
       "block.layersofdescent.jade_cluster": "Jade Cluster",
+      "block.layersofdescent.mossy_small_stone_bricks": "Mossy Small Stone Bricks",
       "item_group.layersofdescent.lod_items": "Items",
       "block.layersofdescent.small_stone_bricks": "Small Stone Bricks",
       "block.layersofdescent.sapphire_block": "Sapphire Block",
@@ -1138,7 +1271,8 @@
       "advancements.layers_of_descension.title": "Layers Of Descension",
       "block.layersofdescent.sapphire_cluster": "Sapphire Cluster",
       "block.layersofdescent.cracked_stone_pillar": "Cracked Stone Pillar",
-      "block.layersofdescent.topaz_block": "Topaz Block"
+      "block.layersofdescent.topaz_block": "Topaz Block",
+      "block.layersofdescent.large_stone_brick": "Large Stone Brick"
     }
   },
   "foldersRoot": {

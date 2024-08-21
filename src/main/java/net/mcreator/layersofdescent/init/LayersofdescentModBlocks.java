@@ -12,14 +12,20 @@ import net.minecraft.world.level.block.Block;
 
 import net.mcreator.layersofdescent.block.TopazClusterBlock;
 import net.mcreator.layersofdescent.block.TopazBlockBlock;
+import net.mcreator.layersofdescent.block.StoneTilesBlock;
 import net.mcreator.layersofdescent.block.StonePillarBlock;
 import net.mcreator.layersofdescent.block.SmallStoneBricksBlock;
 import net.mcreator.layersofdescent.block.SapphireClusterBlock;
 import net.mcreator.layersofdescent.block.SapphireBlockBlock;
+import net.mcreator.layersofdescent.block.MossyStoneTilesBlock;
+import net.mcreator.layersofdescent.block.MossyStonePillarBlock;
 import net.mcreator.layersofdescent.block.MossyStoneBlock;
+import net.mcreator.layersofdescent.block.MossySmallStoneBricksBlock;
 import net.mcreator.layersofdescent.block.LimboPortalBlock;
+import net.mcreator.layersofdescent.block.LargeStoneBrickBlock;
 import net.mcreator.layersofdescent.block.JadeClusterBlock;
 import net.mcreator.layersofdescent.block.JadeBlockBlock;
+import net.mcreator.layersofdescent.block.CrackedStoneTilesBlock;
 import net.mcreator.layersofdescent.block.CrackedStonePillarBlock;
 import net.mcreator.layersofdescent.block.CrackedSmallStoneBricksBlock;
 import net.mcreator.layersofdescent.LayersofdescentMod;
@@ -38,6 +44,12 @@ public class LayersofdescentModBlocks {
 	public static final RegistryObject<Block> SMALL_STONE_BRICKS = REGISTRY.register("small_stone_bricks", () -> new SmallStoneBricksBlock());
 	public static final RegistryObject<Block> CRACKED_STONE_PILLAR = REGISTRY.register("cracked_stone_pillar", () -> new CrackedStonePillarBlock());
 	public static final RegistryObject<Block> CRACKED_SMALL_STONE_BRICKS = REGISTRY.register("cracked_small_stone_bricks", () -> new CrackedSmallStoneBricksBlock());
+	public static final RegistryObject<Block> MOSSY_STONE_PILLAR = REGISTRY.register("mossy_stone_pillar", () -> new MossyStonePillarBlock());
+	public static final RegistryObject<Block> MOSSY_SMALL_STONE_BRICKS = REGISTRY.register("mossy_small_stone_bricks", () -> new MossySmallStoneBricksBlock());
+	public static final RegistryObject<Block> LARGE_STONE_BRICK = REGISTRY.register("large_stone_brick", () -> new LargeStoneBrickBlock());
+	public static final RegistryObject<Block> STONE_TILES = REGISTRY.register("stone_tiles", () -> new StoneTilesBlock());
+	public static final RegistryObject<Block> CRACKED_STONE_TILES = REGISTRY.register("cracked_stone_tiles", () -> new CrackedStoneTilesBlock());
+	public static final RegistryObject<Block> MOSSY_STONE_TILES = REGISTRY.register("mossy_stone_tiles", () -> new MossyStoneTilesBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

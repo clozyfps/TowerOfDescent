@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "layersofdescent:block/mossy_stone_tile",
+    "up": "layersofdescent:block/mossy_stone_tile",
+    "north": "layersofdescent:block/mossy_stone_tile",
+    "east": "layersofdescent:block/mossy_stone_tile",
+    "south": "layersofdescent:block/mossy_stone_tile",
+    "west": "layersofdescent:block/mossy_stone_tile",
+    "particle": "layersofdescent:block/mossy_stone_tile"
+  },
+  "render_type": "solid"
+}

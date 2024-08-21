@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "layersofdescent:block/stone_tile",
+    "up": "layersofdescent:block/stone_tile",
+    "north": "layersofdescent:block/stone_tile",
+    "east": "layersofdescent:block/stone_tile",
+    "south": "layersofdescent:block/stone_tile",
+    "west": "layersofdescent:block/stone_tile",
+    "particle": "layersofdescent:block/stone_tile"
+  },
+  "render_type": "solid"
+}

@@ -38,15 +38,9 @@ public class LayersofdescentModItems {
 	public static final RegistryObject<Item> SMALL_STONE_BRICKS = block(LayersofdescentModBlocks.SMALL_STONE_BRICKS);
 	public static final RegistryObject<Item> CRACKED_STONE_PILLAR = block(LayersofdescentModBlocks.CRACKED_STONE_PILLAR);
 	public static final RegistryObject<Item> CRACKED_SMALL_STONE_BRICKS = block(LayersofdescentModBlocks.CRACKED_SMALL_STONE_BRICKS);
-	public static final RegistryObject<Item> MOSSY_STONE_PILLAR = block(LayersofdescentModBlocks.MOSSY_STONE_PILLAR);
-	public static final RegistryObject<Item> MOSSY_SMALL_STONE_BRICKS = block(LayersofdescentModBlocks.MOSSY_SMALL_STONE_BRICKS);
-	public static final RegistryObject<Item> LARGE_STONE_BRICK = block(LayersofdescentModBlocks.LARGE_STONE_BRICK);
-	public static final RegistryObject<Item> STONE_TILES = block(LayersofdescentModBlocks.STONE_TILES);
-	public static final RegistryObject<Item> CRACKED_STONE_TILES = block(LayersofdescentModBlocks.CRACKED_STONE_TILES);
-	public static final RegistryObject<Item> MOSSY_STONE_TILES = block(LayersofdescentModBlocks.MOSSY_STONE_TILES);
-	public static final RegistryObject<Item> BLOODITE_BLOCK = block(LayersofdescentModBlocks.BLOODITE_BLOCK);
 	public static final RegistryObject<Item> BLOODITE_CLUSTER = block(LayersofdescentModBlocks.BLOODITE_CLUSTER);
 	public static final RegistryObject<Item> BLOODITE = REGISTRY.register("bloodite", () -> new BlooditeItem());
+	public static final RegistryObject<Item> BLOODITE_BLOCK = block(LayersofdescentModBlocks.BLOODITE_BLOCK);
 
 	// Start of user code block custom items
 	// End of user code block custom items

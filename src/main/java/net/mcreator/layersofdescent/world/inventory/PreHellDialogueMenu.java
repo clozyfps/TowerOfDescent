@@ -19,7 +19,6 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.layersofdescent.procedures.DeathScreenTextProcedure;
 import net.mcreator.layersofdescent.init.LayersofdescentModMenus;
 
 import java.util.function.Supplier;
@@ -85,7 +84,7 @@ public class PreHellDialogueMenu extends AbstractContainerMenu implements Suppli
 			double x = entity.getX();
 			double y = entity.getY();
 			double z = entity.getZ();
-			DeathScreenTextProcedure.execute(world, x, y, z, entity);
+			DeathScreenTextProcedure.execute();
 		}
 	}
 }

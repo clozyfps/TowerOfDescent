@@ -650,19 +650,6 @@
       "path": "~/Blocks"
     },
     {
-      "name": "LimboGenericLoot",
-      "type": "loottable",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "limbo_generic_loot",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/layersofdescent/loot_tables/chests/limbo_generic_loot.json"
-        ]
-      },
-      "path": "~/Misc/Loot Tables/Limbo"
-    },
-    {
       "name": "ClassSelection",
       "type": "gui",
       "compiles": true,
@@ -827,292 +814,35 @@
       "path": "~/GUI/Procedures"
     },
     {
-      "name": "PlayerDies",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "player_dies",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/layersofdescent/procedures/PlayerDiesProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Procedures/Player"
-    },
-    {
-      "name": "PlayerRespawns",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "player_respawns",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/layersofdescent/procedures/PlayerRespawnsProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Procedures/Player"
-    },
-    {
-      "name": "DeathScreenText",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "death_screen_text",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/layersofdescent/procedures/DeathScreenTextProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Overlay/Procedures"
-    },
-    {
-      "name": "PlayerTick",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "player_tick",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/layersofdescent/procedures/PlayerTickProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Procedures/Player"
-    },
-    {
-      "name": "LayerChangeSpawn",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "layer_change_spawn",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/layersofdescent/procedures/LayerChangeSpawnProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Procedures/Player"
-    },
-    {
-      "name": "LayerChanged",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "layer_changed",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/layersofdescent/procedures/LayerChangedProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "dimension",
-            "type": "dimensiontype"
-          },
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Procedures/Player"
-    },
-    {
-      "name": "MossyStonePillar",
+      "name": "BlooditeCluster",
       "type": "block",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "mossy_stone_pillar",
+      "registry_name": "bloodite_cluster",
       "metadata": {
         "files": [
-          "src/main/resources/data/layersofdescent/loot_tables/blocks/mossy_stone_pillar.json",
-          "src/main/resources/assets/layersofdescent/blockstates/mossy_stone_pillar.json",
-          "src/main/resources/assets/layersofdescent/models/item/mossy_stone_pillar.json",
-          "src/main/java/net/mcreator/layersofdescent/block/MossyStonePillarBlock.java",
-          "src/main/resources/assets/layersofdescent/models/block/mossy_stone_pillar.json"
+          "src/main/resources/assets/layersofdescent/blockstates/bloodite_cluster.json",
+          "src/main/resources/assets/layersofdescent/models/item/bloodite_cluster.json",
+          "src/main/java/net/mcreator/layersofdescent/block/BlooditeClusterBlock.java",
+          "src/main/resources/data/layersofdescent/loot_tables/blocks/bloodite_cluster.json",
+          "src/main/resources/assets/layersofdescent/models/block/bloodite_cluster.json"
         ]
       },
       "path": "~/Blocks"
     },
     {
-      "name": "MossySmallStoneBricks",
-      "type": "block",
+      "name": "Bloodite",
+      "type": "item",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "mossy_small_stone_bricks",
+      "registry_name": "bloodite",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/layersofdescent/block/MossySmallStoneBricksBlock.java",
-          "src/main/resources/data/layersofdescent/loot_tables/blocks/mossy_small_stone_bricks.json",
-          "src/main/resources/assets/layersofdescent/models/block/mossy_small_stone_bricks.json",
-          "src/main/resources/assets/layersofdescent/models/item/mossy_small_stone_bricks.json",
-          "src/main/resources/assets/layersofdescent/blockstates/mossy_small_stone_bricks.json"
+          "src/main/java/net/mcreator/layersofdescent/item/BlooditeItem.java",
+          "src/main/resources/assets/layersofdescent/models/item/bloodite.json"
         ]
       },
-      "path": "~/Blocks"
-    },
-    {
-      "name": "LargeStoneBrick",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "large_stone_brick",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/layersofdescent/models/item/large_stone_brick.json",
-          "src/main/resources/assets/layersofdescent/blockstates/large_stone_brick.json",
-          "src/main/resources/data/layersofdescent/loot_tables/blocks/large_stone_brick.json",
-          "src/main/java/net/mcreator/layersofdescent/block/LargeStoneBrickBlock.java",
-          "src/main/resources/assets/layersofdescent/models/block/large_stone_brick.json"
-        ]
-      },
-      "path": "~/Blocks"
-    },
-    {
-      "name": "StoneTiles",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "stone_tiles",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/layersofdescent/block/StoneTilesBlock.java",
-          "src/main/resources/data/layersofdescent/loot_tables/blocks/stone_tiles.json",
-          "src/main/resources/assets/layersofdescent/models/block/stone_tiles.json",
-          "src/main/resources/assets/layersofdescent/models/item/stone_tiles.json",
-          "src/main/resources/assets/layersofdescent/blockstates/stone_tiles.json"
-        ]
-      },
-      "path": "~/Blocks"
-    },
-    {
-      "name": "CrackedStoneTiles",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cracked_stone_tiles",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/layersofdescent/models/block/cracked_stone_tiles.json",
-          "src/main/java/net/mcreator/layersofdescent/block/CrackedStoneTilesBlock.java",
-          "src/main/resources/data/layersofdescent/loot_tables/blocks/cracked_stone_tiles.json",
-          "src/main/resources/assets/layersofdescent/blockstates/cracked_stone_tiles.json",
-          "src/main/resources/assets/layersofdescent/models/item/cracked_stone_tiles.json"
-        ]
-      },
-      "path": "~/Blocks"
-    },
-    {
-      "name": "MossyStoneTiles",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "mossy_stone_tiles",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/layersofdescent/models/item/mossy_stone_tiles.json",
-          "src/main/resources/assets/layersofdescent/blockstates/mossy_stone_tiles.json",
-          "src/main/resources/data/layersofdescent/loot_tables/blocks/mossy_stone_tiles.json",
-          "src/main/java/net/mcreator/layersofdescent/block/MossyStoneTilesBlock.java",
-          "src/main/resources/assets/layersofdescent/models/block/mossy_stone_tiles.json"
-        ]
-      },
-      "path": "~/Blocks"
+      "path": "~/Items"
     },
     {
       "name": "BlooditeBlock",
@@ -1132,23 +862,6 @@
       "path": "~/Blocks"
     },
     {
-      "name": "BlooditeCluster",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "bloodite_cluster",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/layersofdescent/blockstates/bloodite_cluster.json",
-          "src/main/resources/assets/layersofdescent/models/item/bloodite_cluster.json",
-          "src/main/java/net/mcreator/layersofdescent/block/BlooditeClusterBlock.java",
-          "src/main/resources/data/layersofdescent/loot_tables/blocks/bloodite_cluster.json",
-          "src/main/resources/assets/layersofdescent/models/block/bloodite_cluster.json"
-        ]
-      },
-      "path": "~/Blocks"
-    },
-    {
       "name": "LimboBlooditeClusterFeature",
       "type": "feature",
       "compiles": true,
@@ -1162,20 +875,6 @@
         ]
       },
       "path": "~/Features/Limbo"
-    },
-    {
-      "name": "Bloodite",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "bloodite",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/layersofdescent/item/BlooditeItem.java",
-          "src/main/resources/assets/layersofdescent/models/item/bloodite.json"
-        ]
-      },
-      "path": "~/Items"
     }
   ],
   "variable_elements": [
@@ -1232,18 +931,6 @@
       "type": "string",
       "scope": "player_persistent",
       "value": "Nether Weaver"
-    },
-    {
-      "name": "ScreenFullText",
-      "type": "string",
-      "scope": "player_persistent",
-      "value": ""
-    },
-    {
-      "name": "LayerChanged",
-      "type": "logic",
-      "scope": "player_lifetime",
-      "value": "false"
     }
   ],
   "sound_elements": [
@@ -1258,8 +945,8 @@
   ],
   "tag_elements": {
     "BLOCKS:minecraft:mineable/pickaxe": [
-      "~CUSTOM:BlooditeCluster",
       "~CUSTOM:BlooditeBlock",
+      "~CUSTOM:BlooditeCluster",
       "~CUSTOM:MossyStoneTiles",
       "~CUSTOM:CrackedStoneTiles",
       "~CUSTOM:StoneTiles",
@@ -1284,22 +971,14 @@
     ]
   },
   "tab_element_order": {
-    "CUSTOM:LODItems": [
-      "Jade",
-      "Topaz",
-      "Sapphire",
-      "Bloodite"
-    ],
     "CUSTOM:LODBlocks": [
       "JadeBlock",
-      "JadeCluster",
       "TopazBlock",
-      "TopazCluster",
-      "SapphireBlock",
-      "SapphireCluster",
-      "BlooditeBlock",
-      "BlooditeCluster",
+      "JadeCluster",
       "MossyStone",
+      "TopazCluster",
+      "SapphireCluster",
+      "SapphireBlock",
       "LargeStoneBrick",
       "StonePillar",
       "CrackedStonePillar",
@@ -1309,17 +988,16 @@
       "MossySmallStoneBricks",
       "StoneTiles",
       "CrackedStoneTiles",
-      "MossyStoneTiles"
+      "MossyStoneTiles",
+      "BlooditeCluster",
+      "BlooditeBlock"
     ]
   },
   "language_map": {
     "en_us": {
       "gui.layersofdescent.class_selection.button_ssl": "§l\u003e",
       "advancements.layers_of_descension.descr": "Begin Your Journey To The Top, Starting At Limbo.",
-      "block.layersofdescent.cracked_stone_tiles": "Cracked Stone Tiles",
       "block.layersofdescent.jade_block": "Jade Block",
-      "block.layersofdescent.mossy_stone_pillar": "Mossy Stone Pillar",
-      "block.layersofdescent.mossy_stone_tiles": "Mossy Stone Tiles",
       "item.layersofdescent.limbo": "TEMP",
       "item_group.layersofdescent.lod_blocks": "Blocks",
       "gui.layersofdescent.class_selection.button_select": "Select",
@@ -1327,19 +1005,14 @@
       "item.layersofdescent.sapphire": "Sapphire",
       "block.layersofdescent.cracked_small_stone_bricks": "Cracked Small Stone Bricks",
       "block.layersofdescent.stone_pillar": "Stone Pillar",
-      "block.layersofdescent.stone_tiles": "Stone Tiles",
       "item.layersofdescent.test_item": "Test Item",
       "subtitles.voice": "",
-      "item.layersofdescent.bloodite": "Bloodite",
       "block.layersofdescent.topaz_cluster": "Topaz Cluster",
-      "block.layersofdescent.bloodite_block": "Bloodite Block",
       "block.layersofdescent.mossy_stone": "Mossy Stone",
       "gui.layersofdescent.class_selection.button_ssl1": "§l\u003c",
       "item.layersofdescent.topaz": "Topaz",
       "biome.layersofdescent.limbo_caves": "Limbo Caves",
       "block.layersofdescent.jade_cluster": "Jade Cluster",
-      "block.layersofdescent.bloodite_cluster": "Bloodite Cluster",
-      "block.layersofdescent.mossy_small_stone_bricks": "Mossy Small Stone Bricks",
       "item_group.layersofdescent.lod_items": "Items",
       "block.layersofdescent.small_stone_bricks": "Small Stone Bricks",
       "block.layersofdescent.sapphire_block": "Sapphire Block",
@@ -1347,8 +1020,7 @@
       "advancements.layers_of_descension.title": "Layers Of Descension",
       "block.layersofdescent.sapphire_cluster": "Sapphire Cluster",
       "block.layersofdescent.cracked_stone_pillar": "Cracked Stone Pillar",
-      "block.layersofdescent.topaz_block": "Topaz Block",
-      "block.layersofdescent.large_stone_brick": "Large Stone Brick"
+      "block.layersofdescent.topaz_block": "Topaz Block"
     }
   },
   "foldersRoot": {
@@ -1371,15 +1043,6 @@
         "name": "Misc",
         "children": [
           {
-            "name": "Loot Tables",
-            "children": [
-              {
-                "name": "Limbo",
-                "children": []
-              }
-            ]
-          },
-          {
             "name": "Tabs",
             "children": []
           }
@@ -1396,21 +1059,7 @@
       },
       {
         "name": "Procedures",
-        "children": [
-          {
-            "name": "Player",
-            "children": []
-          }
-        ]
-      },
-      {
-        "name": "Structures",
-        "children": [
-          {
-            "name": "Limbo",
-            "children": []
-          }
-        ]
+        "children": []
       },
       {
         "name": "Advancements",
@@ -1446,10 +1095,6 @@
             "children": []
           }
         ]
-      },
-      {
-        "name": "Effects",
-        "children": []
       }
     ]
   },

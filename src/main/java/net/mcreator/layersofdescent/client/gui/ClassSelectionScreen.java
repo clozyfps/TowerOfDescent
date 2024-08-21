@@ -1,31 +1,13 @@
 package net.mcreator.layersofdescent.client.gui;
 
-import net.minecraft.world.level.Level;
-import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.entity.player.Inventory;
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.network.chat.Component;
-import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
-import net.minecraft.client.gui.components.PlainTextButton;
-import net.minecraft.client.gui.components.Button;
-import net.minecraft.client.gui.GuiGraphics;
-
-import net.mcreator.layersofdescent.world.inventory.ClassSelectionMenu;
-import net.mcreator.layersofdescent.procedures.DisplayClassInfo2Procedure;
-import net.mcreator.layersofdescent.procedures.DisplayClassInfo1Procedure;
-import net.mcreator.layersofdescent.procedures.ClassDisplayProcedure;
-import net.mcreator.layersofdescent.network.ClassSelectionButtonMessage;
-import net.mcreator.layersofdescent.LayersofdescentMod;
-
-import java.util.HashMap;
-
-import com.mojang.blaze3d.systems.RenderSystem;
-
 public class ClassSelectionScreen extends AbstractContainerScreen<ClassSelectionMenu> {
+
 	private final static HashMap<String, Object> guistate = ClassSelectionMenu.guistate;
+
 	private final Level world;
 	private final int x, y, z;
 	private final Player entity;
+
 	Button button_ssl;
 	Button button_ssl1;
 	Button button_select;
@@ -46,8 +28,11 @@ public class ClassSelectionScreen extends AbstractContainerScreen<ClassSelection
 	@Override
 	public void render(GuiGraphics guiGraphics, int mouseX, int mouseY, float partialTicks) {
 		this.renderBackground(guiGraphics);
+
 		super.render(guiGraphics, mouseX, mouseY, partialTicks);
+
 		this.renderTooltip(guiGraphics, mouseX, mouseY);
+
 	}
 
 	@Override
@@ -55,6 +40,7 @@ public class ClassSelectionScreen extends AbstractContainerScreen<ClassSelection
 		RenderSystem.setShaderColor(1, 1, 1, 1);
 		RenderSystem.enableBlend();
 		RenderSystem.defaultBlendFunc();
+
 		guiGraphics.blit(texture, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
 
 		guiGraphics.blit(new ResourceLocation("layersofdescent:textures/screens/bigblack.png"), this.leftPos + 358, this.topPos + -37, 0, 0, 1500, 1500, 1500, 1500);
@@ -70,6 +56,7 @@ public class ClassSelectionScreen extends AbstractContainerScreen<ClassSelection
 			this.minecraft.player.closeContainer();
 			return true;
 		}
+
 		return super.keyPressed(key, b, c);
 	}
 
@@ -78,41 +65,49 @@ public class ClassSelectionScreen extends AbstractContainerScreen<ClassSelection
 		guiGraphics.drawString(this.font, Component.translatable("gui.layersofdescent.class_selection.label_sslselect_your_class"), -48, -30, -1, false);
 		guiGraphics.drawString(this.font,
 
-				ClassDisplayProcedure.execute(entity), -37, 61, -1, false);
+				ClassDisplayProcedure.execute(), -37, 61, -1, false);
 		guiGraphics.drawString(this.font,
 
-				DisplayClassInfo1Procedure.execute(entity), -208, -11, -1, false);
+				DisplayClassInfo1Procedure.execute(), -208, -11, -1, false);
 		guiGraphics.drawString(this.font,
 
-				DisplayClassInfo2Procedure.execute(entity), -208, 7, -1, false);
+				DisplayClassInfo2Procedure.execute(), -208, 7, -1, false);
 	}
 
 	@Override
 	public void init() {
 		super.init();
+
 		button_ssl = new PlainTextButton(this.leftPos + 62, this.topPos + 97, 40, 20, Component.translatable("gui.layersofdescent.class_selection.button_ssl"), e -> {
 			if (true) {
 				LayersofdescentMod.PACKET_HANDLER.sendToServer(new ClassSelectionButtonMessage(0, x, y, z));
 				ClassSelectionButtonMessage.handleButtonAction(entity, 0, x, y, z);
 			}
 		}, this.font);
+
 		guistate.put("button:button_ssl", button_ssl);
 		this.addRenderableWidget(button_ssl);
+
 		button_ssl1 = new PlainTextButton(this.leftPos + -73, this.topPos + 97, 40, 20, Component.translatable("gui.layersofdescent.class_selection.button_ssl1"), e -> {
 			if (true) {
 				LayersofdescentMod.PACKET_HANDLER.sendToServer(new ClassSelectionButtonMessage(1, x, y, z));
 				ClassSelectionButtonMessage.handleButtonAction(entity, 1, x, y, z);
 			}
 		}, this.font);
+
 		guistate.put("button:button_ssl1", button_ssl1);
 		this.addRenderableWidget(button_ssl1);
+
 		button_select = Button.builder(Component.translatable("gui.layersofdescent.class_selection.button_select"), e -> {
 			if (true) {
 				LayersofdescentMod.PACKET_HANDLER.sendToServer(new ClassSelectionButtonMessage(2, x, y, z));
 				ClassSelectionButtonMessage.handleButtonAction(entity, 2, x, y, z);
 			}
 		}).bounds(this.leftPos + -28, this.topPos + 124, 56, 20).build();
+
 		guistate.put("button:button_select", button_select);
 		this.addRenderableWidget(button_select);
+
 	}
+
 }

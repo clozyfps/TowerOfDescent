@@ -1,6 +1,6 @@
 package net.mcreator.layersofdescent.procedures;
 
-import net.minecraft.world.entity.Entity;
+import net.minecraftforge.eventbus.api.Event;
 
 public class DisplayClassInfo1Procedure {
 	public static String execute(Entity entity) {

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "layersofdescent:block/stone_bricks",
+    "up": "layersofdescent:block/stone_bricks",
+    "north": "layersofdescent:block/stone_bricks",
+    "east": "layersofdescent:block/stone_bricks",
+    "south": "layersofdescent:block/stone_bricks",
+    "west": "layersofdescent:block/stone_bricks",
+    "particle": "layersofdescent:block/stone_bricks"
+  },
+  "render_type": "solid"
+}

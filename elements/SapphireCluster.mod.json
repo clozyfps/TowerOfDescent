@@ -12,7 +12,7 @@
     "customModelName": "Cross model",
     "rotationMode": 0,
     "enablePitch": false,
-    "emissiveRendering": true,
+    "emissiveRendering": false,
     "displayFluidOverlay": false,
     "itemTexture": "chalcanthite_cluster",
     "particleTexture": "",
@@ -24,12 +24,12 @@
     "disableOffset": false,
     "boundingBoxes": [
       {
-        "mx": 0.0,
+        "mx": 3.0,
         "my": 0.0,
-        "mz": 0.0,
-        "Mx": 16.0,
-        "My": 16.0,
-        "Mz": 16.0,
+        "mz": 3.0,
+        "Mx": 13.0,
+        "My": 7.0,
+        "Mz": 13.0,
         "subtract": false
       }
     ],
@@ -80,7 +80,7 @@
     "speedFactor": 1.0,
     "jumpFactor": 1.0,
     "reactionToPushing": "NORMAL",
-    "isNotColidable": true,
+    "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
       "value": "AMETHYST_CLUSTER"
@@ -100,7 +100,7 @@
     "stepSound": {
       "value": ""
     },
-    "luminance": 8,
+    "luminance": 5,
     "unbreakable": false,
     "vanillaToolTier": "NONE",
     "placingCondition": {

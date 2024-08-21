@@ -2,43 +2,43 @@
   "_fv": 66,
   "_type": "block",
   "definition": {
-    "texture": "torbernite_cluster",
-    "textureTop": "",
-    "textureLeft": "",
-    "textureFront": "",
-    "textureRight": "",
-    "textureBack": "",
-    "renderType": 12,
-    "customModelName": "Cross model",
-    "rotationMode": 0,
+    "texture": "stone_pillar_top",
+    "textureTop": "stone_pillar_top",
+    "textureLeft": "cracked_stone_pillar",
+    "textureFront": "cracked_stone_pillar",
+    "textureRight": "cracked_stone_pillar",
+    "textureBack": "cracked_stone_pillar",
+    "renderType": 10,
+    "customModelName": "Normal",
+    "rotationMode": 5,
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
-    "itemTexture": "torbernite_cluster",
+    "itemTexture": "",
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
-    "hasTransparency": true,
+    "hasTransparency": false,
     "connectedSides": false,
-    "transparencyType": "CUTOUT",
+    "transparencyType": "SOLID",
     "disableOffset": false,
     "boundingBoxes": [
       {
-        "mx": 3.0,
+        "mx": 0.0,
         "my": 0.0,
-        "mz": 3.0,
-        "Mx": 13.0,
-        "My": 7.0,
-        "Mz": 13.0,
+        "mz": 0.0,
+        "Mx": 16.0,
+        "My": 16.0,
+        "Mz": 16.0,
         "subtract": false
       }
     ],
-    "name": "Jade Cluster",
+    "name": "Cracked Stone Pillar",
     "specialInformation": {
       "fixedValue": []
     },
-    "hardness": 1.0,
-    "resistance": 1.0,
+    "hardness": 1.5,
+    "resistance": 6.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTabs": [
@@ -48,7 +48,7 @@
     ],
     "destroyTool": "pickaxe",
     "customDrop": {
-      "value": "CUSTOM:Jade"
+      "value": ""
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
@@ -56,9 +56,9 @@
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canRedstoneConnect": false,
-    "lightOpacity": 0,
+    "lightOpacity": 15,
     "material": {
-      "value": "AMETHYST"
+      "value": "ROCK"
     },
     "tickRate": 0,
     "tickRandomly": false,
@@ -83,7 +83,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "AMETHYST_CLUSTER"
+      "value": "STONE"
     },
     "breakSound": {
       "value": ""
@@ -100,12 +100,9 @@
     "stepSound": {
       "value": ""
     },
-    "luminance": 5,
+    "luminance": 0,
     "unbreakable": false,
     "vanillaToolTier": "NONE",
-    "placingCondition": {
-      "name": "NoPlaceOnAir"
-    },
     "isBonemealable": false,
     "hasInventory": false,
     "guiBoundTo": "<NONE>",

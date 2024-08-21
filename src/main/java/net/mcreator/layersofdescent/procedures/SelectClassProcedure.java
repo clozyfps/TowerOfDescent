@@ -1,19 +1,8 @@
 package net.mcreator.layersofdescent.procedures;
 
-import net.minecraft.world.entity.Entity;
-
-import net.mcreator.layersofdescent.network.LayersofdescentModVariables;
+import net.minecraftforge.eventbus.api.Event;
 
 public class SelectClassProcedure {
-	public static void execute(Entity entity) {
-		if (entity == null)
-			return;
-		{
-			String _setval = (entity.getCapability(LayersofdescentModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new LayersofdescentModVariables.PlayerVariables())).SelectedClassScreen;
-			entity.getCapability(LayersofdescentModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
-				capability.PlayerClass = _setval;
-				capability.syncPlayerVariables(entity);
-			});
-		}
+	public static void execute() {
 	}
 }

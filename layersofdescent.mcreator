@@ -235,25 +235,6 @@
       "path": "~/Items/Procedures"
     },
     {
-      "name": "HellBegin",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "hell_begin",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/layersofdescent/procedures/HellBeginProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Procedures"
-    },
-    {
       "name": "PreDimension",
       "type": "dimension",
       "compiles": true,
@@ -286,41 +267,6 @@
         ]
       },
       "path": "~/Dimensions/Procedures"
-    },
-    {
-      "name": "HellBegin2",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "hell_begin_2",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/layersofdescent/procedures/HellBegin2Procedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Procedures"
     },
     {
       "name": "BlackScreenDisplay",
@@ -357,41 +303,6 @@
           {
             "name": "entity",
             "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Overlay/Procedures"
-    },
-    {
-      "name": "OnTickTextExpansion",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "on_tick_text_expansion",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/layersofdescent/procedures/OnTickTextExpansionProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
           }
         ]
       },
@@ -988,13 +899,14 @@
       "~CUSTOM:MossyStone"
     ]
   },
+  "tab_element_order": {},
   "language_map": {
     "en_us": {
       "gui.layersofdescent.class_selection.button_ssl": "§l\u003e",
       "advancements.layers_of_descension.descr": "Begin Your Journey To The Top, Starting At Limbo.",
       "block.layersofdescent.jade_block": "Jade Block",
-      "item.layersofdescent.limbo": "TEMP",
       "item_group.layersofdescent.lod_blocks": "Blocks",
+      "item.layersofdescent.limbo": "TEMP",
       "item.layersofdescent.sapphire": "Sapphire",
       "gui.layersofdescent.class_selection.label_sslselect_your_class": "§lSelect Your Class",
       "gui.layersofdescent.class_selection.button_select": "Select",
@@ -1108,5 +1020,5 @@
     "currentGenerator": "forge-1.20.1",
     "modElementsPackage": "net.mcreator.layersofdescent"
   },
-  "mcreatorVersion": 202400118518
+  "mcreatorVersion": 202400232117
 }

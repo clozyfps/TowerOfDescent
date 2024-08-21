@@ -4,7 +4,7 @@
   "definition": {
     "type": 0,
     "width": 0,
-    "height": 166,
+    "height": 0,
     "inventoryOffsetX": 0,
     "inventoryOffsetY": 0,
     "renderBgLayer": true,
@@ -15,11 +15,8 @@
         "data": {
           "image": "bigblack.png",
           "use1Xscale": false,
-          "displayCondition": {
-            "name": "BlackScreenDisplay"
-          },
-          "x": -237,
-          "y": -130
+          "x": -540,
+          "y": -468
         }
       },
       {
@@ -37,17 +34,20 @@
           "displayCondition": {
             "name": "BlackScreenDisplay"
           },
-          "x": 159,
-          "y": 107
+          "x": 169,
+          "y": 114
         }
       }
     ],
+    "onTick": {
+      "name": "DeathScreenText"
+    },
     "gridSettings": {
       "sx": 18,
       "sy": 18,
       "ox": 11,
       "oy": 15,
-      "snapOnGrid": true
+      "snapOnGrid": false
     }
   }
 }

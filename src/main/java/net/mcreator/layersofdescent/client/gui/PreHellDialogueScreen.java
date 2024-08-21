@@ -64,16 +64,11 @@ public class PreHellDialogueScreen extends AbstractContainerScreen<PreHellDialog
 	}
 
 	@Override
-	public void containerTick() {
-		super.containerTick();
-	}
-
-	@Override
 	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
 		if (BlackScreenDisplayProcedure.execute(entity))
 			guiGraphics.drawString(this.font,
 
-					DisplayVoiceProcedure.execute(entity), -42, 70, -1, false);
+					DisplayVoiceProcedure.execute(entity), -55, 70, -1, false);
 	}
 
 	@Override

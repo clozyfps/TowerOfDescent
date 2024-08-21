@@ -81,6 +81,10 @@ public class LayersofdescentModVariables {
 			clone.ScreenTextTimer = original.ScreenTextTimer;
 			clone.ScreenTextStage = original.ScreenTextStage;
 			clone.ScreenTextPauseTime = original.ScreenTextPauseTime;
+			clone.SelectedClassScreen = original.SelectedClassScreen;
+			clone.PlayerClass = original.PlayerClass;
+			clone.SelectedColorCode = original.SelectedColorCode;
+			clone.LayerOn = original.LayerOn;
 			if (!event.isWasDeath()) {
 			}
 			if (!event.getEntity().level().isClientSide()) {
@@ -127,6 +131,10 @@ public class LayersofdescentModVariables {
 		public double ScreenTextTimer = 0;
 		public double ScreenTextStage = 1.0;
 		public boolean ScreenTextPauseTime = false;
+		public String SelectedClassScreen = "Nether Weaver";
+		public String PlayerClass = "";
+		public String SelectedColorCode = "";
+		public String LayerOn = "";
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayer serverPlayer)
@@ -140,6 +148,10 @@ public class LayersofdescentModVariables {
 			nbt.putDouble("ScreenTextTimer", ScreenTextTimer);
 			nbt.putDouble("ScreenTextStage", ScreenTextStage);
 			nbt.putBoolean("ScreenTextPauseTime", ScreenTextPauseTime);
+			nbt.putString("SelectedClassScreen", SelectedClassScreen);
+			nbt.putString("PlayerClass", PlayerClass);
+			nbt.putString("SelectedColorCode", SelectedColorCode);
+			nbt.putString("LayerOn", LayerOn);
 			return nbt;
 		}
 
@@ -150,6 +162,10 @@ public class LayersofdescentModVariables {
 			ScreenTextTimer = nbt.getDouble("ScreenTextTimer");
 			ScreenTextStage = nbt.getDouble("ScreenTextStage");
 			ScreenTextPauseTime = nbt.getBoolean("ScreenTextPauseTime");
+			SelectedClassScreen = nbt.getString("SelectedClassScreen");
+			PlayerClass = nbt.getString("PlayerClass");
+			SelectedColorCode = nbt.getString("SelectedColorCode");
+			LayerOn = nbt.getString("LayerOn");
 		}
 	}
 
@@ -188,6 +204,10 @@ public class LayersofdescentModVariables {
 					variables.ScreenTextTimer = message.data.ScreenTextTimer;
 					variables.ScreenTextStage = message.data.ScreenTextStage;
 					variables.ScreenTextPauseTime = message.data.ScreenTextPauseTime;
+					variables.SelectedClassScreen = message.data.SelectedClassScreen;
+					variables.PlayerClass = message.data.PlayerClass;
+					variables.SelectedColorCode = message.data.SelectedColorCode;
+					variables.LayerOn = message.data.LayerOn;
 				}
 			});
 			context.setPacketHandled(true);

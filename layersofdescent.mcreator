@@ -3,7 +3,6 @@
     {
       "name": "TestProcedure",
       "type": "procedure",
-      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "registry_name": "test_procedure",
@@ -18,7 +17,6 @@
     {
       "name": "LimboCaves",
       "type": "biome",
-      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "registry_name": "limbo_caves",
@@ -32,17 +30,16 @@
     {
       "name": "JadeBlock",
       "type": "block",
-      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "jade_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/layersofdescent/models/block/jade_block.json",
           "src/main/resources/data/layersofdescent/loot_tables/blocks/jade_block.json",
-          "src/main/java/net/mcreator/layersofdescent/block/JadeBlockBlock.java",
           "src/main/resources/assets/layersofdescent/models/item/jade_block.json",
-          "src/main/resources/assets/layersofdescent/blockstates/jade_block.json"
+          "src/main/resources/assets/layersofdescent/blockstates/jade_block.json",
+          "src/main/java/net/mcreator/layersofdescent/block/JadeBlockBlock.java",
+          "src/main/resources/assets/layersofdescent/models/block/jade_block.json"
         ]
       },
       "path": "~/Blocks"
@@ -50,17 +47,16 @@
     {
       "name": "TopazBlock",
       "type": "block",
-      "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "registry_name": "topaz_block",
       "metadata": {
         "files": [
-          "src/main/resources/data/layersofdescent/loot_tables/blocks/topaz_block.json",
-          "src/main/resources/assets/layersofdescent/blockstates/topaz_block.json",
-          "src/main/resources/assets/layersofdescent/models/item/topaz_block.json",
           "src/main/java/net/mcreator/layersofdescent/block/TopazBlockBlock.java",
-          "src/main/resources/assets/layersofdescent/models/block/topaz_block.json"
+          "src/main/resources/assets/layersofdescent/models/block/topaz_block.json",
+          "src/main/resources/data/layersofdescent/loot_tables/blocks/topaz_block.json",
+          "src/main/resources/assets/layersofdescent/models/item/topaz_block.json",
+          "src/main/resources/assets/layersofdescent/blockstates/topaz_block.json"
         ]
       },
       "path": "~/Blocks"
@@ -68,17 +64,16 @@
     {
       "name": "JadeCluster",
       "type": "block",
-      "sortid": 3,
       "compiles": true,
       "locked_code": false,
       "registry_name": "jade_cluster",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/layersofdescent/block/JadeClusterBlock.java",
-          "src/main/resources/assets/layersofdescent/blockstates/jade_cluster.json",
           "src/main/resources/assets/layersofdescent/models/block/jade_cluster.json",
-          "src/main/resources/assets/layersofdescent/models/item/jade_cluster.json",
-          "src/main/resources/data/layersofdescent/loot_tables/blocks/jade_cluster.json"
+          "src/main/resources/assets/layersofdescent/blockstates/jade_cluster.json",
+          "src/main/java/net/mcreator/layersofdescent/block/JadeClusterBlock.java",
+          "src/main/resources/data/layersofdescent/loot_tables/blocks/jade_cluster.json",
+          "src/main/resources/assets/layersofdescent/models/item/jade_cluster.json"
         ]
       },
       "path": "~/Blocks"
@@ -86,17 +81,16 @@
     {
       "name": "MossyStone",
       "type": "block",
-      "sortid": 1,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mossy_stone",
       "metadata": {
         "files": [
-          "src/main/resources/assets/layersofdescent/models/item/mossy_stone.json",
-          "src/main/resources/data/layersofdescent/loot_tables/blocks/mossy_stone.json",
-          "src/main/resources/assets/layersofdescent/models/block/mossy_stone.json",
           "src/main/java/net/mcreator/layersofdescent/block/MossyStoneBlock.java",
-          "src/main/resources/assets/layersofdescent/blockstates/mossy_stone.json"
+          "src/main/resources/assets/layersofdescent/blockstates/mossy_stone.json",
+          "src/main/resources/assets/layersofdescent/models/block/mossy_stone.json",
+          "src/main/resources/data/layersofdescent/loot_tables/blocks/mossy_stone.json",
+          "src/main/resources/assets/layersofdescent/models/item/mossy_stone.json"
         ]
       },
       "path": "~/Blocks"
@@ -104,7 +98,6 @@
     {
       "name": "NoPlaceOnAir",
       "type": "procedure",
-      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "registry_name": "no_place_on_air",
@@ -137,17 +130,16 @@
     {
       "name": "TopazCluster",
       "type": "block",
-      "sortid": 7,
       "compiles": true,
       "locked_code": false,
       "registry_name": "topaz_cluster",
       "metadata": {
         "files": [
-          "src/main/resources/data/layersofdescent/loot_tables/blocks/topaz_cluster.json",
-          "src/main/resources/assets/layersofdescent/models/block/topaz_cluster.json",
+          "src/main/resources/assets/layersofdescent/blockstates/topaz_cluster.json",
           "src/main/java/net/mcreator/layersofdescent/block/TopazClusterBlock.java",
-          "src/main/resources/assets/layersofdescent/models/item/topaz_cluster.json",
-          "src/main/resources/assets/layersofdescent/blockstates/topaz_cluster.json"
+          "src/main/resources/assets/layersofdescent/models/block/topaz_cluster.json",
+          "src/main/resources/data/layersofdescent/loot_tables/blocks/topaz_cluster.json",
+          "src/main/resources/assets/layersofdescent/models/item/topaz_cluster.json"
         ]
       },
       "path": "~/Blocks"
@@ -155,17 +147,16 @@
     {
       "name": "SapphireCluster",
       "type": "block",
-      "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sapphire_cluster",
       "metadata": {
         "files": [
-          "src/main/resources/assets/layersofdescent/models/item/sapphire_cluster.json",
           "src/main/resources/assets/layersofdescent/blockstates/sapphire_cluster.json",
-          "src/main/resources/data/layersofdescent/loot_tables/blocks/sapphire_cluster.json",
+          "src/main/resources/assets/layersofdescent/models/item/sapphire_cluster.json",
           "src/main/java/net/mcreator/layersofdescent/block/SapphireClusterBlock.java",
-          "src/main/resources/assets/layersofdescent/models/block/sapphire_cluster.json"
+          "src/main/resources/assets/layersofdescent/models/block/sapphire_cluster.json",
+          "src/main/resources/data/layersofdescent/loot_tables/blocks/sapphire_cluster.json"
         ]
       },
       "path": "~/Blocks"
@@ -173,17 +164,16 @@
     {
       "name": "SapphireBlock",
       "type": "block",
-      "sortid": 4,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sapphire_block",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/layersofdescent/block/SapphireBlockBlock.java",
-          "src/main/resources/assets/layersofdescent/models/item/sapphire_block.json",
+          "src/main/resources/data/layersofdescent/loot_tables/blocks/sapphire_block.json",
           "src/main/resources/assets/layersofdescent/blockstates/sapphire_block.json",
-          "src/main/resources/assets/layersofdescent/models/block/sapphire_block.json",
-          "src/main/resources/data/layersofdescent/loot_tables/blocks/sapphire_block.json"
+          "src/main/resources/assets/layersofdescent/models/item/sapphire_block.json",
+          "src/main/java/net/mcreator/layersofdescent/block/SapphireBlockBlock.java",
+          "src/main/resources/assets/layersofdescent/models/block/sapphire_block.json"
         ]
       },
       "path": "~/Blocks"
@@ -191,7 +181,6 @@
     {
       "name": "Limbo",
       "type": "dimension",
-      "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "registry_name": "limbo",
@@ -215,7 +204,6 @@
     {
       "name": "TestItem",
       "type": "item",
-      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "registry_name": "test_item",
@@ -230,7 +218,6 @@
     {
       "name": "TestItemRightclicked",
       "type": "procedure",
-      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "registry_name": "test_item_rightclicked",
@@ -250,7 +237,6 @@
     {
       "name": "HellBegin",
       "type": "procedure",
-      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hell_begin",
@@ -270,7 +256,6 @@
     {
       "name": "PreDimension",
       "type": "dimension",
-      "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pre_dimension",
@@ -286,7 +271,6 @@
     {
       "name": "PreHellTick",
       "type": "procedure",
-      "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pre_hell_tick",
@@ -306,7 +290,6 @@
     {
       "name": "HellBegin2",
       "type": "procedure",
-      "sortid": 20,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hell_begin_2",
@@ -342,7 +325,6 @@
     {
       "name": "BlackScreenDisplay",
       "type": "procedure",
-      "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "registry_name": "black_screen_display",
@@ -363,7 +345,6 @@
     {
       "name": "DisplayVoice",
       "type": "procedure",
-      "sortid": 22,
       "compiles": true,
       "locked_code": false,
       "registry_name": "display_voice",
@@ -384,7 +365,6 @@
     {
       "name": "OnTickTextExpansion",
       "type": "procedure",
-      "sortid": 23,
       "compiles": true,
       "locked_code": false,
       "registry_name": "on_tick_text_expansion",
@@ -420,7 +400,6 @@
     {
       "name": "PreHellDialogue",
       "type": "gui",
-      "sortid": 24,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pre_hell_dialogue",
@@ -435,7 +414,6 @@
     {
       "name": "LimboMossFeature",
       "type": "feature",
-      "sortid": 25,
       "compiles": true,
       "locked_code": false,
       "registry_name": "limbo_moss_feature",
@@ -451,15 +429,14 @@
     {
       "name": "LimboGrassFeature",
       "type": "feature",
-      "sortid": 26,
       "compiles": true,
       "locked_code": false,
       "registry_name": "limbo_grass_feature",
       "metadata": {
         "files": [
-          "src/main/resources/data/layersofdescent/worldgen/configured_feature/limbo_grass_feature.json",
+          "src/main/resources/data/layersofdescent/forge/biome_modifier/limbo_grass_feature_biome_modifier.json",
           "src/main/resources/data/layersofdescent/worldgen/placed_feature/limbo_grass_feature.json",
-          "src/main/resources/data/layersofdescent/forge/biome_modifier/limbo_grass_feature_biome_modifier.json"
+          "src/main/resources/data/layersofdescent/worldgen/configured_feature/limbo_grass_feature.json"
         ]
       },
       "path": "~/Features/Limbo"
@@ -467,15 +444,14 @@
     {
       "name": "LimboFernFeature",
       "type": "feature",
-      "sortid": 27,
       "compiles": true,
       "locked_code": false,
       "registry_name": "limbo_fern_feature",
       "metadata": {
         "files": [
           "src/main/resources/data/layersofdescent/worldgen/configured_feature/limbo_fern_feature.json",
-          "src/main/resources/data/layersofdescent/forge/biome_modifier/limbo_fern_feature_biome_modifier.json",
-          "src/main/resources/data/layersofdescent/worldgen/placed_feature/limbo_fern_feature.json"
+          "src/main/resources/data/layersofdescent/worldgen/placed_feature/limbo_fern_feature.json",
+          "src/main/resources/data/layersofdescent/forge/biome_modifier/limbo_fern_feature_biome_modifier.json"
         ]
       },
       "path": "~/Features/Limbo"
@@ -483,14 +459,13 @@
     {
       "name": "LimboBlobFeature1",
       "type": "feature",
-      "sortid": 28,
       "compiles": true,
       "locked_code": false,
       "registry_name": "limbo_blob_feature_1",
       "metadata": {
         "files": [
-          "src/main/resources/data/layersofdescent/worldgen/configured_feature/limbo_blob_feature_1.json",
           "src/main/resources/data/layersofdescent/worldgen/placed_feature/limbo_blob_feature_1.json",
+          "src/main/resources/data/layersofdescent/worldgen/configured_feature/limbo_blob_feature_1.json",
           "src/main/resources/data/layersofdescent/forge/biome_modifier/limbo_blob_feature_1_biome_modifier.json"
         ]
       },
@@ -499,15 +474,14 @@
     {
       "name": "LimboBlobFeature2",
       "type": "feature",
-      "sortid": 29,
       "compiles": true,
       "locked_code": false,
       "registry_name": "limbo_blob_feature_2",
       "metadata": {
         "files": [
           "src/main/resources/data/layersofdescent/worldgen/configured_feature/limbo_blob_feature_2.json",
-          "src/main/resources/data/layersofdescent/worldgen/placed_feature/limbo_blob_feature_2.json",
-          "src/main/resources/data/layersofdescent/forge/biome_modifier/limbo_blob_feature_2_biome_modifier.json"
+          "src/main/resources/data/layersofdescent/forge/biome_modifier/limbo_blob_feature_2_biome_modifier.json",
+          "src/main/resources/data/layersofdescent/worldgen/placed_feature/limbo_blob_feature_2.json"
         ]
       },
       "path": "~/Features/Limbo"
@@ -515,15 +489,14 @@
     {
       "name": "LimboBlobFeature3",
       "type": "feature",
-      "sortid": 30,
       "compiles": true,
       "locked_code": false,
       "registry_name": "limbo_blob_feature_3",
       "metadata": {
         "files": [
           "src/main/resources/data/layersofdescent/worldgen/placed_feature/limbo_blob_feature_3.json",
-          "src/main/resources/data/layersofdescent/forge/biome_modifier/limbo_blob_feature_3_biome_modifier.json",
-          "src/main/resources/data/layersofdescent/worldgen/configured_feature/limbo_blob_feature_3.json"
+          "src/main/resources/data/layersofdescent/worldgen/configured_feature/limbo_blob_feature_3.json",
+          "src/main/resources/data/layersofdescent/forge/biome_modifier/limbo_blob_feature_3_biome_modifier.json"
         ]
       },
       "path": "~/Features/Limbo"
@@ -531,15 +504,14 @@
     {
       "name": "LimboBlobFeature4",
       "type": "feature",
-      "sortid": 31,
       "compiles": true,
       "locked_code": false,
       "registry_name": "limbo_blob_feature_4",
       "metadata": {
         "files": [
-          "src/main/resources/data/layersofdescent/worldgen/configured_feature/limbo_blob_feature_4.json",
+          "src/main/resources/data/layersofdescent/forge/biome_modifier/limbo_blob_feature_4_biome_modifier.json",
           "src/main/resources/data/layersofdescent/worldgen/placed_feature/limbo_blob_feature_4.json",
-          "src/main/resources/data/layersofdescent/forge/biome_modifier/limbo_blob_feature_4_biome_modifier.json"
+          "src/main/resources/data/layersofdescent/worldgen/configured_feature/limbo_blob_feature_4.json"
         ]
       },
       "path": "~/Features/Limbo"
@@ -547,15 +519,14 @@
     {
       "name": "LimboBlobFeature5",
       "type": "feature",
-      "sortid": 32,
       "compiles": true,
       "locked_code": false,
       "registry_name": "limbo_blob_feature_5",
       "metadata": {
         "files": [
+          "src/main/resources/data/layersofdescent/worldgen/configured_feature/limbo_blob_feature_5.json",
           "src/main/resources/data/layersofdescent/forge/biome_modifier/limbo_blob_feature_5_biome_modifier.json",
-          "src/main/resources/data/layersofdescent/worldgen/placed_feature/limbo_blob_feature_5.json",
-          "src/main/resources/data/layersofdescent/worldgen/configured_feature/limbo_blob_feature_5.json"
+          "src/main/resources/data/layersofdescent/worldgen/placed_feature/limbo_blob_feature_5.json"
         ]
       },
       "path": "~/Features/Limbo"
@@ -563,15 +534,14 @@
     {
       "name": "LimboBlobFeature6",
       "type": "feature",
-      "sortid": 33,
       "compiles": true,
       "locked_code": false,
       "registry_name": "limbo_blob_feature_6",
       "metadata": {
         "files": [
-          "src/main/resources/data/layersofdescent/worldgen/placed_feature/limbo_blob_feature_6.json",
+          "src/main/resources/data/layersofdescent/worldgen/configured_feature/limbo_blob_feature_6.json",
           "src/main/resources/data/layersofdescent/forge/biome_modifier/limbo_blob_feature_6_biome_modifier.json",
-          "src/main/resources/data/layersofdescent/worldgen/configured_feature/limbo_blob_feature_6.json"
+          "src/main/resources/data/layersofdescent/worldgen/placed_feature/limbo_blob_feature_6.json"
         ]
       },
       "path": "~/Features/Limbo"
@@ -579,7 +549,6 @@
     {
       "name": "LimboTopazClusterFeature",
       "type": "feature",
-      "sortid": 34,
       "compiles": true,
       "locked_code": false,
       "registry_name": "limbo_topaz_cluster_feature",
@@ -595,15 +564,14 @@
     {
       "name": "LimboSapphireClusterFeature",
       "type": "feature",
-      "sortid": 35,
       "compiles": true,
       "locked_code": false,
       "registry_name": "limbo_sapphire_cluster_feature",
       "metadata": {
         "files": [
-          "src/main/resources/data/layersofdescent/worldgen/configured_feature/limbo_sapphire_cluster_feature.json",
           "src/main/resources/data/layersofdescent/forge/biome_modifier/limbo_sapphire_cluster_feature_biome_modifier.json",
-          "src/main/resources/data/layersofdescent/worldgen/placed_feature/limbo_sapphire_cluster_feature.json"
+          "src/main/resources/data/layersofdescent/worldgen/placed_feature/limbo_sapphire_cluster_feature.json",
+          "src/main/resources/data/layersofdescent/worldgen/configured_feature/limbo_sapphire_cluster_feature.json"
         ]
       },
       "path": "~/Features/Limbo"
@@ -611,7 +579,6 @@
     {
       "name": "LimboJadeClusterFeature",
       "type": "feature",
-      "sortid": 36,
       "compiles": true,
       "locked_code": false,
       "registry_name": "limbo_jade_cluster_feature",
@@ -627,7 +594,6 @@
     {
       "name": "Jade",
       "type": "item",
-      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "registry_name": "jade",
@@ -642,14 +608,13 @@
     {
       "name": "Sapphire",
       "type": "item",
-      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sapphire",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/layersofdescent/item/SapphireItem.java",
-          "src/main/resources/assets/layersofdescent/models/item/sapphire.json"
+          "src/main/resources/assets/layersofdescent/models/item/sapphire.json",
+          "src/main/java/net/mcreator/layersofdescent/item/SapphireItem.java"
         ]
       },
       "path": "~/Items"
@@ -657,14 +622,13 @@
     {
       "name": "Topaz",
       "type": "item",
-      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "registry_name": "topaz",
       "metadata": {
         "files": [
-          "src/main/resources/assets/layersofdescent/models/item/topaz.json",
-          "src/main/java/net/mcreator/layersofdescent/item/TopazItem.java"
+          "src/main/java/net/mcreator/layersofdescent/item/TopazItem.java",
+          "src/main/resources/assets/layersofdescent/models/item/topaz.json"
         ]
       },
       "path": "~/Items"
@@ -672,7 +636,6 @@
     {
       "name": "LODBlocks",
       "type": "tab",
-      "sortid": 37,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lod_blocks",
@@ -684,7 +647,6 @@
     {
       "name": "LODItems",
       "type": "tab",
-      "sortid": 38,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lod_items",
@@ -692,6 +654,170 @@
         "files": []
       },
       "path": "~/Misc/Tabs"
+    },
+    {
+      "name": "ClassDisplay",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "class_display",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/layersofdescent/procedures/ClassDisplayProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/GUI/Procedures"
+    },
+    {
+      "name": "ColorCodeSet",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "color_code_set",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/layersofdescent/procedures/ColorCodeSetProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "DisplayClassInfo1",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "display_class_info_1",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/layersofdescent/procedures/DisplayClassInfo1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/GUI/Procedures"
+    },
+    {
+      "name": "DisplayClassInfo2",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "display_class_info_2",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/layersofdescent/procedures/DisplayClassInfo2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/GUI/Procedures"
+    },
+    {
+      "name": "ClassSelection",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "class_selection",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/layersofdescent/world/inventory/ClassSelectionMenu.java",
+          "src/main/java/net/mcreator/layersofdescent/network/ClassSelectionButtonMessage.java",
+          "src/main/java/net/mcreator/layersofdescent/client/gui/ClassSelectionScreen.java"
+        ]
+      },
+      "path": "~/GUI"
+    },
+    {
+      "name": "LayersOfDescension",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "layers_of_descension",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/layersofdescent/advancements/layers_of_descension.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "ForwardClass",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forward_class",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/layersofdescent/procedures/ForwardClassProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/GUI/Procedures"
+    },
+    {
+      "name": "BackwardsClass",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "backwards_class",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/layersofdescent/procedures/BackwardsClassProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/GUI/Procedures"
+    },
+    {
+      "name": "SelectClass",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "select_class",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/layersofdescent/procedures/SelectClassProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/GUI/Procedures"
     }
   ],
   "variable_elements": [
@@ -724,6 +850,30 @@
       "type": "logic",
       "scope": "player_persistent",
       "value": "false"
+    },
+    {
+      "name": "SelectedClassScreen",
+      "type": "string",
+      "scope": "player_persistent",
+      "value": "Nether Weaver"
+    },
+    {
+      "name": "PlayerClass",
+      "type": "string",
+      "scope": "player_persistent",
+      "value": ""
+    },
+    {
+      "name": "SelectedColorCode",
+      "type": "string",
+      "scope": "player_persistent",
+      "value": ""
+    },
+    {
+      "name": "LayerOn",
+      "type": "string",
+      "scope": "player_persistent",
+      "value": ""
     }
   ],
   "sound_elements": [
@@ -747,26 +897,32 @@
       "~CUSTOM:JadeBlock"
     ],
     "BLOCKS:minecraft:overworld_carver_replaceables": [
-      "~Blocks.AIR",
       "~Blocks.STONE#0",
       "~CUSTOM:MossyStone"
     ]
   },
+  "tab_element_order": {},
   "language_map": {
     "en_us": {
+      "gui.layersofdescent.class_selection.button_ssl": "§l\u003e",
       "subtitles.voice": "",
       "block.layersofdescent.topaz_cluster": "Topaz Cluster",
+      "advancements.layers_of_descension.descr": "Begin Your Journey To The Top, Starting At Limbo.",
       "block.layersofdescent.jade_block": "Jade Block",
       "block.layersofdescent.mossy_stone": "Mossy Stone",
+      "gui.layersofdescent.class_selection.button_ssl1": "§l\u003c",
       "item.layersofdescent.limbo": "TEMP",
       "item.layersofdescent.topaz": "Topaz",
       "item_group.layersofdescent.lod_blocks": "Blocks",
       "biome.layersofdescent.limbo_caves": "Limbo Caves",
       "block.layersofdescent.jade_cluster": "Jade Cluster",
       "item.layersofdescent.sapphire": "Sapphire",
+      "gui.layersofdescent.class_selection.label_sslselect_your_class": "§lSelect Your Class",
+      "gui.layersofdescent.class_selection.button_select": "Select",
       "item_group.layersofdescent.lod_items": "Items",
       "block.layersofdescent.sapphire_block": "Sapphire Block",
       "item.layersofdescent.jade": "Jade",
+      "advancements.layers_of_descension.title": "Layers Of Descension",
       "block.layersofdescent.sapphire_cluster": "Sapphire Cluster",
       "block.layersofdescent.topaz_block": "Topaz Block",
       "item.layersofdescent.test_item": "Test Item"
@@ -807,7 +963,12 @@
       },
       {
         "name": "GUI",
-        "children": []
+        "children": [
+          {
+            "name": "Procedures",
+            "children": []
+          }
+        ]
       },
       {
         "name": "Overlay",
@@ -835,6 +996,10 @@
             "children": []
           }
         ]
+      },
+      {
+        "name": "Advancements",
+        "children": []
       }
     ]
   },
@@ -853,5 +1018,5 @@
     "currentGenerator": "forge-1.20.1",
     "modElementsPackage": "net.mcreator.layersofdescent"
   },
-  "mcreatorVersion": 202400118518
+  "mcreatorVersion": 202400232117
 }

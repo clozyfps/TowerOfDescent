@@ -316,8 +316,8 @@
       "registry_name": "pre_hell_dialogue",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/layersofdescent/world/inventory/PreHellDialogueMenu.java",
-          "src/main/java/net/mcreator/layersofdescent/client/gui/PreHellDialogueScreen.java"
+          "src/main/java/net/mcreator/layersofdescent/client/gui/PreHellDialogueScreen.java",
+          "src/main/java/net/mcreator/layersofdescent/world/inventory/PreHellDialogueMenu.java"
         ]
       },
       "path": "~/GUI"
@@ -1185,6 +1185,192 @@
         ]
       },
       "path": "~/Features/Limbo"
+    },
+    {
+      "name": "PlayerDeath",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "player_death",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/layersofdescent/procedures/PlayerDeathProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures/Player"
+    },
+    {
+      "name": "PlayerRespawns",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "player_respawns",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/layersofdescent/procedures/PlayerRespawnsProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures/Player"
+    },
+    {
+      "name": "LayerChangeSpawn",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "layer_change_spawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/layersofdescent/procedures/LayerChangeSpawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures/Player"
+    },
+    {
+      "name": "OnPlayerTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "on_player_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/layersofdescent/procedures/OnPlayerTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures/Player"
+    },
+    {
+      "name": "LayerChanged",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "layer_changed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/layersofdescent/procedures/LayerChangedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "dimension",
+            "type": "dimensiontype"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures/Player"
+    },
+    {
+      "name": "DeathMenuText",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "death_menu_text",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/layersofdescent/procedures/DeathMenuTextProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Overlay/Procedures"
     }
   ],
   "variable_elements": [
@@ -1198,7 +1384,7 @@
       "name": "ScreenText",
       "type": "string",
       "scope": "player_persistent",
-      "value": "\"\""
+      "value": ""
     },
     {
       "name": "ScreenTextTimer",
@@ -1210,7 +1396,7 @@
       "name": "ScreenTextStage",
       "type": "number",
       "scope": "player_persistent",
-      "value": "1.0"
+      "value": "0.0"
     },
     {
       "name": "ScreenTextPauseTime",
@@ -1313,6 +1499,18 @@
       "type": "number",
       "scope": "player_persistent",
       "value": "0"
+    },
+    {
+      "name": "LayerChanged",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
+    },
+    {
+      "name": "ScreenFullText",
+      "type": "string",
+      "scope": "map",
+      "value": ""
     }
   ],
   "sound_elements": [
@@ -1361,8 +1559,8 @@
       "block.layersofdescent.jade_block": "Jade Block",
       "block.layersofdescent.mossy_stone_pillar": "Mossy Stone Pillar",
       "block.layersofdescent.mossy_stone_tiles": "Mossy Stone Tiles",
-      "item_group.layersofdescent.lod_blocks": "Blocks",
       "item.layersofdescent.limbo": "TEMP",
+      "item_group.layersofdescent.lod_blocks": "Blocks",
       "gui.layersofdescent.sin_selection.button_ssl": "§l\u003e",
       "item.layersofdescent.sapphire": "Sapphire",
       "gui.layersofdescent.class_selection.label_sslselect_your_class": "§lSelect Your Class",
@@ -1432,7 +1630,12 @@
       },
       {
         "name": "Procedures",
-        "children": []
+        "children": [
+          {
+            "name": "Player",
+            "children": []
+          }
+        ]
       },
       {
         "name": "Advancements",

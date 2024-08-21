@@ -1,16 +1,7 @@
 {
   "variants": {
-    "axis=x": {
-      "model": "layersofdescent:block/large_stone_brick",
-      "x": 90,
-      "y": 90
-    },
-    "axis=y": {
+    "": {
       "model": "layersofdescent:block/large_stone_brick"
-    },
-    "axis=z": {
-      "model": "layersofdescent:block/large_stone_brick",
-      "x": 90
     }
   }
 }

@@ -1113,6 +1113,69 @@
         ]
       },
       "path": "~/Blocks"
+    },
+    {
+      "name": "BlooditeBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloodite_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/layersofdescent/loot_tables/blocks/bloodite_block.json",
+          "src/main/resources/assets/layersofdescent/models/block/bloodite_block.json",
+          "src/main/resources/assets/layersofdescent/models/item/bloodite_block.json",
+          "src/main/java/net/mcreator/layersofdescent/block/BlooditeBlockBlock.java",
+          "src/main/resources/assets/layersofdescent/blockstates/bloodite_block.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "BlooditeCluster",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloodite_cluster",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/layersofdescent/blockstates/bloodite_cluster.json",
+          "src/main/resources/assets/layersofdescent/models/item/bloodite_cluster.json",
+          "src/main/java/net/mcreator/layersofdescent/block/BlooditeClusterBlock.java",
+          "src/main/resources/data/layersofdescent/loot_tables/blocks/bloodite_cluster.json",
+          "src/main/resources/assets/layersofdescent/models/block/bloodite_cluster.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "LimboBlooditeClusterFeature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "limbo_bloodite_cluster_feature",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/layersofdescent/forge/biome_modifier/limbo_bloodite_cluster_feature_biome_modifier.json",
+          "src/main/resources/data/layersofdescent/worldgen/configured_feature/limbo_bloodite_cluster_feature.json",
+          "src/main/resources/data/layersofdescent/worldgen/placed_feature/limbo_bloodite_cluster_feature.json"
+        ]
+      },
+      "path": "~/Features/Limbo"
+    },
+    {
+      "name": "Bloodite",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloodite",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/layersofdescent/item/BlooditeItem.java",
+          "src/main/resources/assets/layersofdescent/models/item/bloodite.json"
+        ]
+      },
+      "path": "~/Items"
     }
   ],
   "variable_elements": [
@@ -1195,6 +1258,8 @@
   ],
   "tag_elements": {
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:BlooditeCluster",
+      "~CUSTOM:BlooditeBlock",
       "~CUSTOM:MossyStoneTiles",
       "~CUSTOM:CrackedStoneTiles",
       "~CUSTOM:StoneTiles",
@@ -1219,14 +1284,22 @@
     ]
   },
   "tab_element_order": {
+    "CUSTOM:LODItems": [
+      "Jade",
+      "Topaz",
+      "Sapphire",
+      "Bloodite"
+    ],
     "CUSTOM:LODBlocks": [
       "JadeBlock",
-      "TopazBlock",
       "JadeCluster",
-      "MossyStone",
+      "TopazBlock",
       "TopazCluster",
-      "SapphireCluster",
       "SapphireBlock",
+      "SapphireCluster",
+      "BlooditeBlock",
+      "BlooditeCluster",
+      "MossyStone",
       "LargeStoneBrick",
       "StonePillar",
       "CrackedStonePillar",
@@ -1247,22 +1320,25 @@
       "block.layersofdescent.jade_block": "Jade Block",
       "block.layersofdescent.mossy_stone_pillar": "Mossy Stone Pillar",
       "block.layersofdescent.mossy_stone_tiles": "Mossy Stone Tiles",
-      "item_group.layersofdescent.lod_blocks": "Blocks",
       "item.layersofdescent.limbo": "TEMP",
-      "item.layersofdescent.sapphire": "Sapphire",
-      "gui.layersofdescent.class_selection.label_sslselect_your_class": "§lSelect Your Class",
+      "item_group.layersofdescent.lod_blocks": "Blocks",
       "gui.layersofdescent.class_selection.button_select": "Select",
+      "gui.layersofdescent.class_selection.label_sslselect_your_class": "§lSelect Your Class",
+      "item.layersofdescent.sapphire": "Sapphire",
       "block.layersofdescent.cracked_small_stone_bricks": "Cracked Small Stone Bricks",
       "block.layersofdescent.stone_pillar": "Stone Pillar",
       "block.layersofdescent.stone_tiles": "Stone Tiles",
       "item.layersofdescent.test_item": "Test Item",
       "subtitles.voice": "",
+      "item.layersofdescent.bloodite": "Bloodite",
       "block.layersofdescent.topaz_cluster": "Topaz Cluster",
+      "block.layersofdescent.bloodite_block": "Bloodite Block",
       "block.layersofdescent.mossy_stone": "Mossy Stone",
       "gui.layersofdescent.class_selection.button_ssl1": "§l\u003c",
       "item.layersofdescent.topaz": "Topaz",
       "biome.layersofdescent.limbo_caves": "Limbo Caves",
       "block.layersofdescent.jade_cluster": "Jade Cluster",
+      "block.layersofdescent.bloodite_cluster": "Bloodite Cluster",
       "block.layersofdescent.mossy_small_stone_bricks": "Mossy Small Stone Bricks",
       "item_group.layersofdescent.lod_items": "Items",
       "block.layersofdescent.small_stone_bricks": "Small Stone Bricks",

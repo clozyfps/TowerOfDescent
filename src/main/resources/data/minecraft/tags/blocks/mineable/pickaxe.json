@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
+    "layersofdescent:bloodite_cluster",
+    "layersofdescent:bloodite_block",
     "layersofdescent:mossy_stone_tiles",
     "layersofdescent:cracked_stone_tiles",
     "layersofdescent:stone_tiles",

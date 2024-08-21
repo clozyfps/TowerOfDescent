@@ -28,6 +28,8 @@ import net.mcreator.layersofdescent.block.JadeBlockBlock;
 import net.mcreator.layersofdescent.block.CrackedStoneTilesBlock;
 import net.mcreator.layersofdescent.block.CrackedStonePillarBlock;
 import net.mcreator.layersofdescent.block.CrackedSmallStoneBricksBlock;
+import net.mcreator.layersofdescent.block.BlooditeClusterBlock;
+import net.mcreator.layersofdescent.block.BlooditeBlockBlock;
 import net.mcreator.layersofdescent.LayersofdescentMod;
 
 public class LayersofdescentModBlocks {
@@ -50,6 +52,8 @@ public class LayersofdescentModBlocks {
 	public static final RegistryObject<Block> STONE_TILES = REGISTRY.register("stone_tiles", () -> new StoneTilesBlock());
 	public static final RegistryObject<Block> CRACKED_STONE_TILES = REGISTRY.register("cracked_stone_tiles", () -> new CrackedStoneTilesBlock());
 	public static final RegistryObject<Block> MOSSY_STONE_TILES = REGISTRY.register("mossy_stone_tiles", () -> new MossyStoneTilesBlock());
+	public static final RegistryObject<Block> BLOODITE_BLOCK = REGISTRY.register("bloodite_block", () -> new BlooditeBlockBlock());
+	public static final RegistryObject<Block> BLOODITE_CLUSTER = REGISTRY.register("bloodite_cluster", () -> new BlooditeClusterBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

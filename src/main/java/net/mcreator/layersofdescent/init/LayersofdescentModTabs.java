@@ -24,20 +24,23 @@ public class LayersofdescentModTabs {
 	public static final RegistryObject<CreativeModeTab> LOD_ITEMS = REGISTRY.register("lod_items",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.layersofdescent.lod_items")).icon(() -> new ItemStack(LayersofdescentModItems.SAPPHIRE.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(LayersofdescentModItems.JADE.get());
-				tabData.accept(LayersofdescentModItems.SAPPHIRE.get());
 				tabData.accept(LayersofdescentModItems.TOPAZ.get());
+				tabData.accept(LayersofdescentModItems.SAPPHIRE.get());
+				tabData.accept(LayersofdescentModItems.BLOODITE.get());
 			})
 
 					.build());
 	public static final RegistryObject<CreativeModeTab> LOD_BLOCKS = REGISTRY.register("lod_blocks",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.layersofdescent.lod_blocks")).icon(() -> new ItemStack(LayersofdescentModBlocks.MOSSY_STONE.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(LayersofdescentModBlocks.JADE_BLOCK.get().asItem());
-				tabData.accept(LayersofdescentModBlocks.TOPAZ_BLOCK.get().asItem());
 				tabData.accept(LayersofdescentModBlocks.JADE_CLUSTER.get().asItem());
-				tabData.accept(LayersofdescentModBlocks.MOSSY_STONE.get().asItem());
+				tabData.accept(LayersofdescentModBlocks.TOPAZ_BLOCK.get().asItem());
 				tabData.accept(LayersofdescentModBlocks.TOPAZ_CLUSTER.get().asItem());
-				tabData.accept(LayersofdescentModBlocks.SAPPHIRE_CLUSTER.get().asItem());
 				tabData.accept(LayersofdescentModBlocks.SAPPHIRE_BLOCK.get().asItem());
+				tabData.accept(LayersofdescentModBlocks.SAPPHIRE_CLUSTER.get().asItem());
+				tabData.accept(LayersofdescentModBlocks.BLOODITE_BLOCK.get().asItem());
+				tabData.accept(LayersofdescentModBlocks.BLOODITE_CLUSTER.get().asItem());
+				tabData.accept(LayersofdescentModBlocks.MOSSY_STONE.get().asItem());
 				tabData.accept(LayersofdescentModBlocks.LARGE_STONE_BRICK.get().asItem());
 				tabData.accept(LayersofdescentModBlocks.STONE_PILLAR.get().asItem());
 				tabData.accept(LayersofdescentModBlocks.CRACKED_STONE_PILLAR.get().asItem());

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "layersofdescent:block/cracked_stone_tile",
+    "up": "layersofdescent:block/cracked_stone_tile",
+    "north": "layersofdescent:block/cracked_stone_tile",
+    "east": "layersofdescent:block/cracked_stone_tile",
+    "south": "layersofdescent:block/cracked_stone_tile",
+    "west": "layersofdescent:block/cracked_stone_tile",
+    "particle": "layersofdescent:block/cracked_stone_tile"
+  },
+  "render_type": "solid"
+}

@@ -1,6 +1,6 @@
 {
   "type": "minecraft:block",
-  "random_sequence": "layersofdescent:blocks/bloodite_cluster",
+  "random_sequence": "layersofdescent:blocks/mossy_stone_tiles",
   "pools": [
     {
       "rolls": 1.0,
@@ -12,7 +12,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "layersofdescent:bloodite"
+          "name": "layersofdescent:mossy_stone_tiles"
         }
       ]
     }

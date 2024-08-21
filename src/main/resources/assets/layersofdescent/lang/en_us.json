@@ -1,7 +1,10 @@
 {
   "gui.layersofdescent.class_selection.button_ssl": "§l\u003e",
   "advancements.layers_of_descension.descr": "Begin Your Journey To The Top, Starting At Limbo.",
+  "block.layersofdescent.cracked_stone_tiles": "Cracked Stone Tiles",
   "block.layersofdescent.jade_block": "Jade Block",
+  "block.layersofdescent.mossy_stone_pillar": "Mossy Stone Pillar",
+  "block.layersofdescent.mossy_stone_tiles": "Mossy Stone Tiles",
   "item_group.layersofdescent.lod_blocks": "Blocks",
   "item.layersofdescent.limbo": "TEMP",
   "gui.layersofdescent.class_selection.button_select": "Select",
@@ -9,14 +12,19 @@
   "item.layersofdescent.sapphire": "Sapphire",
   "block.layersofdescent.cracked_small_stone_bricks": "Cracked Small Stone Bricks",
   "block.layersofdescent.stone_pillar": "Stone Pillar",
+  "block.layersofdescent.stone_tiles": "Stone Tiles",
   "item.layersofdescent.test_item": "Test Item",
   "subtitles.voice": "",
+  "item.layersofdescent.bloodite": "Bloodite",
   "block.layersofdescent.topaz_cluster": "Topaz Cluster",
+  "block.layersofdescent.bloodite_block": "Bloodite Block",
   "block.layersofdescent.mossy_stone": "Mossy Stone",
   "gui.layersofdescent.class_selection.button_ssl1": "§l\u003c",
   "item.layersofdescent.topaz": "Topaz",
   "biome.layersofdescent.limbo_caves": "Limbo Caves",
   "block.layersofdescent.jade_cluster": "Jade Cluster",
+  "block.layersofdescent.bloodite_cluster": "Bloodite Cluster",
+  "block.layersofdescent.mossy_small_stone_bricks": "Mossy Small Stone Bricks",
   "item_group.layersofdescent.lod_items": "Items",
   "block.layersofdescent.small_stone_bricks": "Small Stone Bricks",
   "block.layersofdescent.sapphire_block": "Sapphire Block",
@@ -24,5 +32,6 @@
   "advancements.layers_of_descension.title": "Layers Of Descension",
   "block.layersofdescent.sapphire_cluster": "Sapphire Cluster",
   "block.layersofdescent.cracked_stone_pillar": "Cracked Stone Pillar",
-  "block.layersofdescent.topaz_block": "Topaz Block"
+  "block.layersofdescent.topaz_block": "Topaz Block",
+  "block.layersofdescent.large_stone_brick": "Large Stone Brick"
 }

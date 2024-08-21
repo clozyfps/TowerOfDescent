@@ -85,7 +85,9 @@ public class LayersofdescentModVariables {
 			clone.PlayerClass = original.PlayerClass;
 			clone.LayerOn = original.LayerOn;
 			clone.SelectedClassScreen = original.SelectedClassScreen;
+			clone.ScreenFullText = original.ScreenFullText;
 			if (!event.isWasDeath()) {
+				clone.LayerChanged = original.LayerChanged;
 			}
 			if (!event.getEntity().level().isClientSide()) {
 				for (Entity entityiterator : new ArrayList<>(event.getEntity().level().players())) {
@@ -127,14 +129,16 @@ public class LayersofdescentModVariables {
 
 	public static class PlayerVariables {
 		public boolean WithinHell = false;
-		public String ScreenText = "\"\"";
-		public double ScreenTextTimer = 0;
-		public double ScreenTextStage = 1.0;
+		public String ScreenText = "";
+		public double ScreenTextTimer = 0.0;
+		public double ScreenTextStage = 0.0;
 		public boolean ScreenTextPauseTime = false;
 		public String SelectedColorCode = "";
 		public String PlayerClass = "";
 		public String LayerOn = "";
 		public String SelectedClassScreen = "Nether Weaver";
+		public String ScreenFullText = "";
+		public boolean LayerChanged = false;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayer serverPlayer)
@@ -152,6 +156,8 @@ public class LayersofdescentModVariables {
 			nbt.putString("PlayerClass", PlayerClass);
 			nbt.putString("LayerOn", LayerOn);
 			nbt.putString("SelectedClassScreen", SelectedClassScreen);
+			nbt.putString("ScreenFullText", ScreenFullText);
+			nbt.putBoolean("LayerChanged", LayerChanged);
 			return nbt;
 		}
 
@@ -166,6 +172,8 @@ public class LayersofdescentModVariables {
 			PlayerClass = nbt.getString("PlayerClass");
 			LayerOn = nbt.getString("LayerOn");
 			SelectedClassScreen = nbt.getString("SelectedClassScreen");
+			ScreenFullText = nbt.getString("ScreenFullText");
+			LayerChanged = nbt.getBoolean("LayerChanged");
 		}
 	}
 
@@ -208,6 +216,8 @@ public class LayersofdescentModVariables {
 					variables.PlayerClass = message.data.PlayerClass;
 					variables.LayerOn = message.data.LayerOn;
 					variables.SelectedClassScreen = message.data.SelectedClassScreen;
+					variables.ScreenFullText = message.data.ScreenFullText;
+					variables.LayerChanged = message.data.LayerChanged;
 				}
 			});
 			context.setPacketHandled(true);

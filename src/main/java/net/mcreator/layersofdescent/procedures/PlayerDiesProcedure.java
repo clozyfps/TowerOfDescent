@@ -12,7 +12,7 @@ import net.mcreator.layersofdescent.network.LayersofdescentModVariables;
 import javax.annotation.Nullable;
 
 @Mod.EventBusSubscriber
-public class HellBeginProcedure {
+public class PlayerDiesProcedure {
 	@SubscribeEvent
 	public static void onEntityDeath(LivingDeathEvent event) {
 		if (event != null && event.getEntity() != null) {
@@ -27,7 +27,7 @@ public class HellBeginProcedure {
 	private static void execute(@Nullable Event event, Entity entity) {
 		if (entity == null)
 			return;
-		if (!(entity.getCapability(LayersofdescentModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new LayersofdescentModVariables.PlayerVariables())).WithinHell) {
+		if ((entity.getCapability(LayersofdescentModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new LayersofdescentModVariables.PlayerVariables())).WithinHell == false) {
 			{
 				boolean _setval = true;
 				entity.getCapability(LayersofdescentModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {

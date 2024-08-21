@@ -235,25 +235,6 @@
       "path": "~/Items/Procedures"
     },
     {
-      "name": "HellBegin",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "hell_begin",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/layersofdescent/procedures/HellBeginProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Procedures"
-    },
-    {
       "name": "PreDimension",
       "type": "dimension",
       "compiles": true,
@@ -288,41 +269,6 @@
       "path": "~/Dimensions/Procedures"
     },
     {
-      "name": "HellBegin2",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "hell_begin_2",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/layersofdescent/procedures/HellBegin2Procedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Procedures"
-    },
-    {
       "name": "BlackScreenDisplay",
       "type": "procedure",
       "compiles": true,
@@ -352,25 +298,6 @@
         "return_type": "string",
         "files": [
           "src/main/java/net/mcreator/layersofdescent/procedures/DisplayVoiceProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Overlay/Procedures"
-    },
-    {
-      "name": "OnTickTextExpansion",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "on_tick_text_expansion",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/layersofdescent/procedures/OnTickTextExpansionProcedure.java"
         ],
         "dependencies": [
           {
@@ -898,6 +825,192 @@
         ]
       },
       "path": "~/GUI/Procedures"
+    },
+    {
+      "name": "PlayerDies",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "player_dies",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/layersofdescent/procedures/PlayerDiesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures/Player"
+    },
+    {
+      "name": "PlayerRespawns",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "player_respawns",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/layersofdescent/procedures/PlayerRespawnsProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures/Player"
+    },
+    {
+      "name": "DeathScreenText",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "death_screen_text",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/layersofdescent/procedures/DeathScreenTextProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Overlay/Procedures"
+    },
+    {
+      "name": "PlayerTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "player_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/layersofdescent/procedures/PlayerTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures/Player"
+    },
+    {
+      "name": "LayerChangeSpawn",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "layer_change_spawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/layersofdescent/procedures/LayerChangeSpawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures/Player"
+    },
+    {
+      "name": "LayerChanged",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "layer_changed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/layersofdescent/procedures/LayerChangedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "dimension",
+            "type": "dimensiontype"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures/Player"
     }
   ],
   "variable_elements": [
@@ -911,19 +1024,19 @@
       "name": "ScreenText",
       "type": "string",
       "scope": "player_persistent",
-      "value": "\"\""
+      "value": ""
     },
     {
       "name": "ScreenTextTimer",
       "type": "number",
       "scope": "player_persistent",
-      "value": "0"
+      "value": "0.0"
     },
     {
       "name": "ScreenTextStage",
       "type": "number",
       "scope": "player_persistent",
-      "value": "1.0"
+      "value": "0.0"
     },
     {
       "name": "ScreenTextPauseTime",
@@ -954,6 +1067,18 @@
       "type": "string",
       "scope": "player_persistent",
       "value": "Nether Weaver"
+    },
+    {
+      "name": "ScreenFullText",
+      "type": "string",
+      "scope": "player_persistent",
+      "value": ""
+    },
+    {
+      "name": "LayerChanged",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
     }
   ],
   "sound_elements": [
@@ -1061,7 +1186,12 @@
       },
       {
         "name": "Procedures",
-        "children": []
+        "children": [
+          {
+            "name": "Player",
+            "children": []
+          }
+        ]
       },
       {
         "name": "Structures",
@@ -1106,6 +1236,10 @@
             "children": []
           }
         ]
+      },
+      {
+        "name": "Effects",
+        "children": []
       }
     ]
   },
@@ -1129,5 +1263,5 @@
     "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.layersofdescent"
   },
-  "mcreatorVersion": 202400118518
+  "mcreatorVersion": 202400232117
 }

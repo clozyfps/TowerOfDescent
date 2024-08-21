@@ -30,7 +30,7 @@ public class PreHellDialogueScreen extends AbstractContainerScreen<PreHellDialog
 		this.z = container.z;
 		this.entity = container.entity;
 		this.imageWidth = 0;
-		this.imageHeight = 166;
+		this.imageHeight = 0;
 	}
 
 	private static final ResourceLocation texture = new ResourceLocation("layersofdescent:textures/screens/pre_hell_dialogue.png");
@@ -48,9 +48,9 @@ public class PreHellDialogueScreen extends AbstractContainerScreen<PreHellDialog
 		RenderSystem.enableBlend();
 		RenderSystem.defaultBlendFunc();
 		guiGraphics.blit(texture, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
-		if (BlackScreenDisplayProcedure.execute(entity)) {
-			guiGraphics.blit(new ResourceLocation("layersofdescent:textures/screens/bigblack.png"), this.leftPos + -451, this.topPos + -167, 0, 0, 1500, 1500, 1500, 1500);
-		}
+
+		guiGraphics.blit(new ResourceLocation("layersofdescent:textures/screens/bigblack.png"), this.leftPos + -754, this.topPos + -588, 0, 0, 1500, 1500, 1500, 1500);
+
 		RenderSystem.disableBlend();
 	}
 
@@ -68,7 +68,7 @@ public class PreHellDialogueScreen extends AbstractContainerScreen<PreHellDialog
 		if (BlackScreenDisplayProcedure.execute(entity))
 			guiGraphics.drawString(this.font,
 
-					DisplayVoiceProcedure.execute(entity), -55, 70, -1, false);
+					DisplayVoiceProcedure.execute(entity), -45, -6, -1, false);
 	}
 
 	@Override

@@ -11,41 +11,41 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.layersofdescent.world.inventory.ClassSelectionMenu;
-import net.mcreator.layersofdescent.procedures.SelectClassProcedure;
-import net.mcreator.layersofdescent.procedures.ForwardClassProcedure;
-import net.mcreator.layersofdescent.procedures.BackwardsClassProcedure;
+import net.mcreator.layersofdescent.world.inventory.SinSelectionMenu;
+import net.mcreator.layersofdescent.procedures.SelectSinProcedure;
+import net.mcreator.layersofdescent.procedures.ForwardSinProcedure;
+import net.mcreator.layersofdescent.procedures.BackwardsSinProcedure;
 import net.mcreator.layersofdescent.LayersofdescentMod;
 
 import java.util.function.Supplier;
 import java.util.HashMap;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
-public class ClassSelectionButtonMessage {
+public class SinSelectionButtonMessage {
 	private final int buttonID, x, y, z;
 
-	public ClassSelectionButtonMessage(FriendlyByteBuf buffer) {
+	public SinSelectionButtonMessage(FriendlyByteBuf buffer) {
 		this.buttonID = buffer.readInt();
 		this.x = buffer.readInt();
 		this.y = buffer.readInt();
 		this.z = buffer.readInt();
 	}
 
-	public ClassSelectionButtonMessage(int buttonID, int x, int y, int z) {
+	public SinSelectionButtonMessage(int buttonID, int x, int y, int z) {
 		this.buttonID = buttonID;
 		this.x = x;
 		this.y = y;
 		this.z = z;
 	}
 
-	public static void buffer(ClassSelectionButtonMessage message, FriendlyByteBuf buffer) {
+	public static void buffer(SinSelectionButtonMessage message, FriendlyByteBuf buffer) {
 		buffer.writeInt(message.buttonID);
 		buffer.writeInt(message.x);
 		buffer.writeInt(message.y);
 		buffer.writeInt(message.z);
 	}
 
-	public static void handler(ClassSelectionButtonMessage message, Supplier<NetworkEvent.Context> contextSupplier) {
+	public static void handler(SinSelectionButtonMessage message, Supplier<NetworkEvent.Context> contextSupplier) {
 		NetworkEvent.Context context = contextSupplier.get();
 		context.enqueueWork(() -> {
 			Player entity = context.getSender();
@@ -60,26 +60,26 @@ public class ClassSelectionButtonMessage {
 
 	public static void handleButtonAction(Player entity, int buttonID, int x, int y, int z) {
 		Level world = entity.level();
-		HashMap guistate = ClassSelectionMenu.guistate;
+		HashMap guistate = SinSelectionMenu.guistate;
 		// security measure to prevent arbitrary chunk generation
 		if (!world.hasChunkAt(new BlockPos(x, y, z)))
 			return;
 		if (buttonID == 0) {
 
-			ForwardClassProcedure.execute(entity);
+			ForwardSinProcedure.execute(entity);
 		}
 		if (buttonID == 1) {
 
-			BackwardsClassProcedure.execute(entity);
+			BackwardsSinProcedure.execute(entity);
 		}
 		if (buttonID == 2) {
 
-			SelectClassProcedure.execute(world, x, y, z, entity);
+			SelectSinProcedure.execute(entity);
 		}
 	}
 
 	@SubscribeEvent
 	public static void registerMessage(FMLCommonSetupEvent event) {
-		LayersofdescentMod.addNetworkMessage(ClassSelectionButtonMessage.class, ClassSelectionButtonMessage::buffer, ClassSelectionButtonMessage::new, ClassSelectionButtonMessage::handler);
+		LayersofdescentMod.addNetworkMessage(SinSelectionButtonMessage.class, SinSelectionButtonMessage::buffer, SinSelectionButtonMessage::new, SinSelectionButtonMessage::handler);
 	}
 }

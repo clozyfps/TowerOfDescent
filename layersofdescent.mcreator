@@ -725,6 +725,22 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -812,6 +828,198 @@
         ]
       },
       "path": "~/Blocks"
+    },
+    {
+      "name": "DisplayStrengthTag",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "display_strength_tag",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/layersofdescent/procedures/DisplayStrengthTagProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/GUI/Procedures"
+    },
+    {
+      "name": "DisplayAgilityTag",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "display_agility_tag",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/layersofdescent/procedures/DisplayAgilityTagProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/GUI/Procedures"
+    },
+    {
+      "name": "DisplayDefenseTag",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "display_defense_tag",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/layersofdescent/procedures/DisplayDefenseTagProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/GUI/Procedures"
+    },
+    {
+      "name": "DisplayMagicTag",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "display_magic_tag",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/layersofdescent/procedures/DisplayMagicTagProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/GUI/Procedures"
+    },
+    {
+      "name": "DisplayDexterityTag",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "display_dexterity_tag",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/layersofdescent/procedures/DisplayDexterityTagProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/GUI/Procedures"
+    },
+    {
+      "name": "SinSelection",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sin_selection",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/layersofdescent/client/gui/SinSelectionScreen.java",
+          "src/main/java/net/mcreator/layersofdescent/world/inventory/SinSelectionMenu.java",
+          "src/main/java/net/mcreator/layersofdescent/network/SinSelectionButtonMessage.java"
+        ]
+      },
+      "path": "~/GUI"
+    },
+    {
+      "name": "ForwardSin",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forward_sin",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/layersofdescent/procedures/ForwardSinProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/GUI/Procedures"
+    },
+    {
+      "name": "BackwardsSin",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "backwards_sin",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/layersofdescent/procedures/BackwardsSinProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/GUI/Procedures"
+    },
+    {
+      "name": "SinDisplay",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sin_display",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/layersofdescent/procedures/SinDisplayProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/GUI/Procedures"
+    },
+    {
+      "name": "SelectSin",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "select_sin",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/layersofdescent/procedures/SelectSinProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/GUI/Procedures"
     }
   ],
   "variable_elements": [
@@ -868,6 +1076,78 @@
       "type": "string",
       "scope": "player_persistent",
       "value": "Nether Weaver"
+    },
+    {
+      "name": "SelectedSinScreen",
+      "type": "string",
+      "scope": "player_persistent",
+      "value": ""
+    },
+    {
+      "name": "Sin",
+      "type": "string",
+      "scope": "player_persistent",
+      "value": ""
+    },
+    {
+      "name": "Strength",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "StrengthModifier",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "Agility",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "AgilityModifier",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "Dexterity",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "DexterityModifier",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "Defense",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "DefenseModifier",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "Magic",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "MagicModifier",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
     }
   ],
   "sound_elements": [
@@ -907,6 +1187,7 @@
       "block.layersofdescent.jade_block": "Jade Block",
       "item_group.layersofdescent.lod_blocks": "Blocks",
       "item.layersofdescent.limbo": "TEMP",
+      "gui.layersofdescent.sin_selection.button_ssl": "§l\u003e",
       "item.layersofdescent.sapphire": "Sapphire",
       "gui.layersofdescent.class_selection.label_sslselect_your_class": "§lSelect Your Class",
       "gui.layersofdescent.class_selection.button_select": "Select",
@@ -920,6 +1201,7 @@
       "item.layersofdescent.topaz": "Topaz",
       "biome.layersofdescent.limbo_caves": "Limbo Caves",
       "block.layersofdescent.jade_cluster": "Jade Cluster",
+      "gui.layersofdescent.sin_selection.button_select": "Select",
       "item_group.layersofdescent.lod_items": "Items",
       "block.layersofdescent.small_stone_bricks": "Small Stone Bricks",
       "block.layersofdescent.sapphire_block": "Sapphire Block",
@@ -927,7 +1209,9 @@
       "advancements.layers_of_descension.title": "Layers Of Descension",
       "block.layersofdescent.sapphire_cluster": "Sapphire Cluster",
       "block.layersofdescent.cracked_stone_pillar": "Cracked Stone Pillar",
-      "block.layersofdescent.topaz_block": "Topaz Block"
+      "block.layersofdescent.topaz_block": "Topaz Block",
+      "gui.layersofdescent.sin_selection.label_sslselect_your_sin": "§lSelect Your Sin",
+      "gui.layersofdescent.sin_selection.button_ssl1": "§l\u003c"
     }
   },
   "foldersRoot": {

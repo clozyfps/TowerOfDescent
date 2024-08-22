@@ -11,6 +11,7 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.client.gui.screens.MenuScreens;
 
+import net.mcreator.layersofdescent.client.gui.SinSelectionScreen;
 import net.mcreator.layersofdescent.client.gui.PreHellDialogueScreen;
 import net.mcreator.layersofdescent.client.gui.ClassSelectionScreen;
 
@@ -21,6 +22,7 @@ public class LayersofdescentModScreens {
 		event.enqueueWork(() -> {
 			MenuScreens.register(LayersofdescentModMenus.PRE_HELL_DIALOGUE.get(), PreHellDialogueScreen::new);
 			MenuScreens.register(LayersofdescentModMenus.CLASS_SELECTION.get(), ClassSelectionScreen::new);
+			MenuScreens.register(LayersofdescentModMenus.SIN_SELECTION.get(), SinSelectionScreen::new);
 		});
 	}
 }

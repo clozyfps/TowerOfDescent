@@ -1,0 +1,187 @@
+{
+  "_fv": 66,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 0,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "name": "button_ssl",
+          "text": "§l>",
+          "isUndecorated": true,
+          "onClick": {
+            "name": "ForwardSin"
+          },
+          "width": 40,
+          "height": 20,
+          "x": 276,
+          "y": 134
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_ssl1",
+          "text": "§l<",
+          "isUndecorated": true,
+          "onClick": {
+            "name": "BackwardsSin"
+          },
+          "width": 40,
+          "height": 20,
+          "x": 141,
+          "y": 134
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_select",
+          "text": "Select",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "SelectSin"
+          },
+          "width": 56,
+          "height": 20,
+          "x": 186,
+          "y": 161
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_sslselect_your_sin",
+          "text": {
+            "fixedValue": "§lSelect Your Sin"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 166,
+          "y": 7
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_display_strength_tag",
+          "text": {
+            "fixedValue": "",
+            "name": "DisplayStrengthTag"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 6,
+          "y": 26
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_display_defense_tag",
+          "text": {
+            "fixedValue": "",
+            "name": "DisplayDefenseTag"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 6,
+          "y": 44
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_display_agility_tag",
+          "text": {
+            "fixedValue": "",
+            "name": "DisplayAgilityTag"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 6,
+          "y": 62
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_display_dexterity_tag",
+          "text": {
+            "fixedValue": "",
+            "name": "DisplayDexterityTag"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 6,
+          "y": 80
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_display_magic_tag",
+          "text": {
+            "fixedValue": "",
+            "name": "DisplayMagicTag"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 6,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_sin_display",
+          "text": {
+            "fixedValue": "",
+            "name": "SinDisplay"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 177,
+          "y": 98
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "bigblack.png",
+          "use1Xscale": false,
+          "x": -210,
+          "y": -73
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

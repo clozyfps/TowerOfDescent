@@ -1,13 +1,13 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "layersofdescent:block/mossy_stone_tile",
-    "up": "layersofdescent:block/mossy_stone_tile",
-    "north": "layersofdescent:block/mossy_stone_tile",
-    "east": "layersofdescent:block/mossy_stone_tile",
-    "south": "layersofdescent:block/mossy_stone_tile",
-    "west": "layersofdescent:block/mossy_stone_tile",
-    "particle": "layersofdescent:block/mossy_stone_tile"
+    "down": "layersofdescent:block/mossy_stone_bricks",
+    "up": "layersofdescent:block/mossy_stone_bricks",
+    "north": "layersofdescent:block/mossy_stone_bricks",
+    "east": "layersofdescent:block/mossy_stone_bricks",
+    "south": "layersofdescent:block/mossy_stone_bricks",
+    "west": "layersofdescent:block/mossy_stone_bricks",
+    "particle": "layersofdescent:block/mossy_stone_bricks"
   },
   "render_type": "solid"
 }

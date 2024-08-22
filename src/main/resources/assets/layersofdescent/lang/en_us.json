@@ -4,7 +4,6 @@
   "block.layersofdescent.jade_block": "Jade Block",
   "item_group.layersofdescent.lod_blocks": "Blocks",
   "item.layersofdescent.limbo": "TEMP",
-  "gui.layersofdescent.sin_selection.button_ssl": "§l\u003e",
   "item.layersofdescent.sapphire": "Sapphire",
   "gui.layersofdescent.class_selection.label_sslselect_your_class": "§lSelect Your Class",
   "gui.layersofdescent.class_selection.button_select": "Select",
@@ -18,7 +17,6 @@
   "item.layersofdescent.topaz": "Topaz",
   "biome.layersofdescent.limbo_caves": "Limbo Caves",
   "block.layersofdescent.jade_cluster": "Jade Cluster",
-  "gui.layersofdescent.sin_selection.button_select": "Select",
   "item_group.layersofdescent.lod_items": "Items",
   "block.layersofdescent.small_stone_bricks": "Small Stone Bricks",
   "block.layersofdescent.sapphire_block": "Sapphire Block",
@@ -26,7 +24,5 @@
   "advancements.layers_of_descension.title": "Layers Of Descension",
   "block.layersofdescent.sapphire_cluster": "Sapphire Cluster",
   "block.layersofdescent.cracked_stone_pillar": "Cracked Stone Pillar",
-  "block.layersofdescent.topaz_block": "Topaz Block",
-  "gui.layersofdescent.sin_selection.label_sslselect_your_sin": "§lSelect Your Sin",
-  "gui.layersofdescent.sin_selection.button_ssl1": "§l\u003c"
+  "block.layersofdescent.topaz_block": "Topaz Block"
 }

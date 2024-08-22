@@ -2,12 +2,12 @@
   "_fv": 66,
   "_type": "block",
   "definition": {
-    "texture": "mossy_stone_bricks",
-    "textureTop": "mossy_stone_bricks",
-    "textureLeft": "mossy_stone_bricks",
-    "textureFront": "mossy_stone_bricks",
-    "textureRight": "mossy_stone_bricks",
-    "textureBack": "mossy_stone_bricks",
+    "texture": "blood_gem_block",
+    "textureTop": "blood_gem_block",
+    "textureLeft": "blood_gem_block",
+    "textureFront": "blood_gem_block",
+    "textureRight": "blood_gem_block",
+    "textureBack": "blood_gem_block",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -33,12 +33,12 @@
         "subtract": false
       }
     ],
-    "name": "Mossy Stone Tiles",
+    "name": "Bloodite Block",
     "specialInformation": {
       "fixedValue": []
     },
-    "hardness": 1.5,
-    "resistance": 6.0,
+    "hardness": 2.0,
+    "resistance": 3.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTabs": [
@@ -83,7 +83,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "STONE"
+      "value": "AMETHYST_BLOCK"
     },
     "breakSound": {
       "value": ""

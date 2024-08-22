@@ -26,6 +26,7 @@ public class LayersofdescentModTabs {
 				tabData.accept(LayersofdescentModItems.JADE.get());
 				tabData.accept(LayersofdescentModItems.SAPPHIRE.get());
 				tabData.accept(LayersofdescentModItems.TOPAZ.get());
+				tabData.accept(LayersofdescentModItems.BLOODITE.get());
 			})
 
 					.build());
@@ -42,6 +43,14 @@ public class LayersofdescentModTabs {
 				tabData.accept(LayersofdescentModBlocks.STONE_PILLAR.get().asItem());
 				tabData.accept(LayersofdescentModBlocks.CRACKED_SMALL_STONE_BRICKS.get().asItem());
 				tabData.accept(LayersofdescentModBlocks.CRACKED_STONE_PILLAR.get().asItem());
+				tabData.accept(LayersofdescentModBlocks.BLOODITE_CLUSTER.get().asItem());
+				tabData.accept(LayersofdescentModBlocks.MOSSY_STONE_TILES.get().asItem());
+				tabData.accept(LayersofdescentModBlocks.CRACKED_STONE_TILES.get().asItem());
+				tabData.accept(LayersofdescentModBlocks.LARGE_STONE_BRICK.get().asItem());
+				tabData.accept(LayersofdescentModBlocks.STONE_TILES.get().asItem());
+				tabData.accept(LayersofdescentModBlocks.MOSSY_STONE_PILLAR.get().asItem());
+				tabData.accept(LayersofdescentModBlocks.MOSSY_SMALL_STONE_BRICKS.get().asItem());
+				tabData.accept(LayersofdescentModBlocks.BLOODITE_BLOCK.get().asItem());
 			})
 
 					.build());

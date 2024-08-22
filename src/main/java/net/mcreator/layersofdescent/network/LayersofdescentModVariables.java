@@ -86,17 +86,17 @@ public class LayersofdescentModVariables {
 			clone.LayerOn = original.LayerOn;
 			clone.SelectedClassScreen = original.SelectedClassScreen;
 			clone.SelectedSinScreen = original.SelectedSinScreen;
-			clone.Sin = original.Sin;
-			clone.Strength = original.Strength;
-			clone.StrengthModifier = original.StrengthModifier;
-			clone.Agility = original.Agility;
-			clone.AgilityModifier = original.AgilityModifier;
 			clone.Dexterity = original.Dexterity;
 			clone.DexterityModifier = original.DexterityModifier;
-			clone.Defense = original.Defense;
+			clone.AgilityModifier = original.AgilityModifier;
+			clone.Agility = original.Agility;
 			clone.DefenseModifier = original.DefenseModifier;
 			clone.Magic = original.Magic;
+			clone.Sin = original.Sin;
 			clone.MagicModifier = original.MagicModifier;
+			clone.StrengthModifier = original.StrengthModifier;
+			clone.Strength = original.Strength;
+			clone.Defense = original.Defense;
 			if (!event.isWasDeath()) {
 			}
 			if (!event.getEntity().level().isClientSide()) {
@@ -148,17 +148,17 @@ public class LayersofdescentModVariables {
 		public String LayerOn = "";
 		public String SelectedClassScreen = "Nether Weaver";
 		public String SelectedSinScreen = "";
-		public String Sin = "";
-		public double Strength = 0;
-		public double StrengthModifier = 0;
-		public double Agility = 0;
-		public double AgilityModifier = 0;
 		public double Dexterity = 0;
 		public double DexterityModifier = 0;
-		public double Defense = 0;
+		public double AgilityModifier = 0;
+		public double Agility = 0;
 		public double DefenseModifier = 0;
 		public double Magic = 0;
+		public String Sin = "";
 		public double MagicModifier = 0;
+		public double StrengthModifier = 0;
+		public double Strength = 0;
+		public double Defense = 0;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayer serverPlayer)
@@ -177,17 +177,17 @@ public class LayersofdescentModVariables {
 			nbt.putString("LayerOn", LayerOn);
 			nbt.putString("SelectedClassScreen", SelectedClassScreen);
 			nbt.putString("SelectedSinScreen", SelectedSinScreen);
-			nbt.putString("Sin", Sin);
-			nbt.putDouble("Strength", Strength);
-			nbt.putDouble("StrengthModifier", StrengthModifier);
-			nbt.putDouble("Agility", Agility);
-			nbt.putDouble("AgilityModifier", AgilityModifier);
 			nbt.putDouble("Dexterity", Dexterity);
 			nbt.putDouble("DexterityModifier", DexterityModifier);
-			nbt.putDouble("Defense", Defense);
+			nbt.putDouble("AgilityModifier", AgilityModifier);
+			nbt.putDouble("Agility", Agility);
 			nbt.putDouble("DefenseModifier", DefenseModifier);
 			nbt.putDouble("Magic", Magic);
+			nbt.putString("Sin", Sin);
 			nbt.putDouble("MagicModifier", MagicModifier);
+			nbt.putDouble("StrengthModifier", StrengthModifier);
+			nbt.putDouble("Strength", Strength);
+			nbt.putDouble("Defense", Defense);
 			return nbt;
 		}
 
@@ -203,17 +203,17 @@ public class LayersofdescentModVariables {
 			LayerOn = nbt.getString("LayerOn");
 			SelectedClassScreen = nbt.getString("SelectedClassScreen");
 			SelectedSinScreen = nbt.getString("SelectedSinScreen");
-			Sin = nbt.getString("Sin");
-			Strength = nbt.getDouble("Strength");
-			StrengthModifier = nbt.getDouble("StrengthModifier");
-			Agility = nbt.getDouble("Agility");
-			AgilityModifier = nbt.getDouble("AgilityModifier");
 			Dexterity = nbt.getDouble("Dexterity");
 			DexterityModifier = nbt.getDouble("DexterityModifier");
-			Defense = nbt.getDouble("Defense");
+			AgilityModifier = nbt.getDouble("AgilityModifier");
+			Agility = nbt.getDouble("Agility");
 			DefenseModifier = nbt.getDouble("DefenseModifier");
 			Magic = nbt.getDouble("Magic");
+			Sin = nbt.getString("Sin");
 			MagicModifier = nbt.getDouble("MagicModifier");
+			StrengthModifier = nbt.getDouble("StrengthModifier");
+			Strength = nbt.getDouble("Strength");
+			Defense = nbt.getDouble("Defense");
 		}
 	}
 
@@ -257,17 +257,17 @@ public class LayersofdescentModVariables {
 					variables.LayerOn = message.data.LayerOn;
 					variables.SelectedClassScreen = message.data.SelectedClassScreen;
 					variables.SelectedSinScreen = message.data.SelectedSinScreen;
-					variables.Sin = message.data.Sin;
-					variables.Strength = message.data.Strength;
-					variables.StrengthModifier = message.data.StrengthModifier;
-					variables.Agility = message.data.Agility;
-					variables.AgilityModifier = message.data.AgilityModifier;
 					variables.Dexterity = message.data.Dexterity;
 					variables.DexterityModifier = message.data.DexterityModifier;
-					variables.Defense = message.data.Defense;
+					variables.AgilityModifier = message.data.AgilityModifier;
+					variables.Agility = message.data.Agility;
 					variables.DefenseModifier = message.data.DefenseModifier;
 					variables.Magic = message.data.Magic;
+					variables.Sin = message.data.Sin;
 					variables.MagicModifier = message.data.MagicModifier;
+					variables.StrengthModifier = message.data.StrengthModifier;
+					variables.Strength = message.data.Strength;
+					variables.Defense = message.data.Defense;
 				}
 			});
 			context.setPacketHandled(true);

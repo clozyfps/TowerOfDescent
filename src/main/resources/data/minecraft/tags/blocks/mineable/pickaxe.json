@@ -1,6 +1,14 @@
 {
   "replace": false,
   "values": [
+    "layersofdescent:bloodite_block",
+    "layersofdescent:mossy_small_stone_bricks",
+    "layersofdescent:mossy_stone_pillar",
+    "layersofdescent:stone_tiles",
+    "layersofdescent:large_stone_brick",
+    "layersofdescent:cracked_stone_tiles",
+    "layersofdescent:mossy_stone_tiles",
+    "layersofdescent:bloodite_cluster",
     "layersofdescent:cracked_stone_pillar",
     "layersofdescent:cracked_small_stone_bricks",
     "layersofdescent:stone_pillar",

@@ -830,6 +830,93 @@
       "path": "~/Blocks"
     },
     {
+      "name": "DisplayMagicTag",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "display_magic_tag",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/layersofdescent/procedures/DisplayMagicTagProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/GUI/Procedures"
+    },
+    {
+      "name": "ForwardSin",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forward_sin",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/layersofdescent/procedures/ForwardSinProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/GUI/Procedures"
+    },
+    {
+      "name": "BackwardsSin",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "backwards_sin",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/layersofdescent/procedures/BackwardsSinProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/GUI/Procedures"
+    },
+    {
+      "name": "DisplayDexterityTag",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "display_dexterity_tag",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/layersofdescent/procedures/DisplayDexterityTagProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/GUI/Procedures"
+    },
+    {
+      "name": "SelectSin",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "select_sin",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/layersofdescent/procedures/SelectSinProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/GUI/Procedures"
+    },
+    {
       "name": "DisplayStrengthTag",
       "type": "procedure",
       "compiles": true,
@@ -870,6 +957,36 @@
       "path": "~/GUI/Procedures"
     },
     {
+      "name": "SinDisplay",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sin_display",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/layersofdescent/procedures/SinDisplayProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/GUI/Procedures"
+    },
+    {
+      "name": "SinSelection",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sin_selection",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/layersofdescent/client/gui/SinSelectionScreen.java",
+          "src/main/java/net/mcreator/layersofdescent/world/inventory/SinSelectionMenu.java",
+          "src/main/java/net/mcreator/layersofdescent/network/SinSelectionButtonMessage.java"
+        ]
+      },
+      "path": "~/GUI"
+    },
+    {
       "name": "DisplayDefenseTag",
       "type": "procedure",
       "compiles": true,
@@ -890,136 +1007,169 @@
       "path": "~/GUI/Procedures"
     },
     {
-      "name": "DisplayMagicTag",
-      "type": "procedure",
+      "name": "BlooditeCluster",
+      "type": "block",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "display_magic_tag",
+      "registry_name": "bloodite_cluster",
       "metadata": {
-        "return_type": "string",
         "files": [
-          "src/main/java/net/mcreator/layersofdescent/procedures/DisplayMagicTagProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
+          "src/main/resources/assets/layersofdescent/blockstates/bloodite_cluster.json",
+          "src/main/java/net/mcreator/layersofdescent/block/BlooditeClusterBlock.java",
+          "src/main/resources/assets/layersofdescent/models/item/bloodite_cluster.json",
+          "src/main/resources/data/layersofdescent/loot_tables/blocks/bloodite_cluster.json",
+          "src/main/resources/assets/layersofdescent/models/block/bloodite_cluster.json"
         ]
       },
-      "path": "~/GUI/Procedures"
+      "path": "~/Blocks"
     },
     {
-      "name": "DisplayDexterityTag",
-      "type": "procedure",
+      "name": "MossyStoneTiles",
+      "type": "block",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "display_dexterity_tag",
+      "registry_name": "mossy_stone_tiles",
       "metadata": {
-        "return_type": "string",
         "files": [
-          "src/main/java/net/mcreator/layersofdescent/procedures/DisplayDexterityTagProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
+          "src/main/resources/assets/layersofdescent/models/item/mossy_stone_tiles.json",
+          "src/main/resources/assets/layersofdescent/blockstates/mossy_stone_tiles.json",
+          "src/main/resources/data/layersofdescent/loot_tables/blocks/mossy_stone_tiles.json",
+          "src/main/java/net/mcreator/layersofdescent/block/MossyStoneTilesBlock.java",
+          "src/main/resources/assets/layersofdescent/models/block/mossy_stone_tiles.json"
         ]
       },
-      "path": "~/GUI/Procedures"
+      "path": "~/Blocks"
     },
     {
-      "name": "SinSelection",
-      "type": "gui",
+      "name": "Bloodite",
+      "type": "item",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "sin_selection",
+      "registry_name": "bloodite",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/layersofdescent/client/gui/SinSelectionScreen.java",
-          "src/main/java/net/mcreator/layersofdescent/world/inventory/SinSelectionMenu.java",
-          "src/main/java/net/mcreator/layersofdescent/network/SinSelectionButtonMessage.java"
+          "src/main/java/net/mcreator/layersofdescent/item/BlooditeItem.java",
+          "src/main/resources/assets/layersofdescent/models/item/bloodite.json"
         ]
       },
-      "path": "~/GUI"
+      "path": "~/Items"
     },
     {
-      "name": "ForwardSin",
-      "type": "procedure",
+      "name": "CrackedStoneTiles",
+      "type": "block",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "forward_sin",
+      "registry_name": "cracked_stone_tiles",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/layersofdescent/procedures/ForwardSinProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
+          "src/main/java/net/mcreator/layersofdescent/block/CrackedStoneTilesBlock.java",
+          "src/main/resources/assets/layersofdescent/models/item/cracked_stone_tiles.json",
+          "src/main/resources/assets/layersofdescent/models/block/cracked_stone_tiles.json",
+          "src/main/resources/assets/layersofdescent/blockstates/cracked_stone_tiles.json",
+          "src/main/resources/data/layersofdescent/loot_tables/blocks/cracked_stone_tiles.json"
         ]
       },
-      "path": "~/GUI/Procedures"
+      "path": "~/Blocks"
     },
     {
-      "name": "BackwardsSin",
-      "type": "procedure",
+      "name": "LargeStoneBrick",
+      "type": "block",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "backwards_sin",
+      "registry_name": "large_stone_brick",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/layersofdescent/procedures/BackwardsSinProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
+          "src/main/resources/assets/layersofdescent/models/item/large_stone_brick.json",
+          "src/main/resources/assets/layersofdescent/blockstates/large_stone_brick.json",
+          "src/main/resources/data/layersofdescent/loot_tables/blocks/large_stone_brick.json",
+          "src/main/java/net/mcreator/layersofdescent/block/LargeStoneBrickBlock.java",
+          "src/main/resources/assets/layersofdescent/models/block/large_stone_brick.json"
         ]
       },
-      "path": "~/GUI/Procedures"
+      "path": "~/Blocks"
     },
     {
-      "name": "SinDisplay",
-      "type": "procedure",
+      "name": "StoneTiles",
+      "type": "block",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "sin_display",
+      "registry_name": "stone_tiles",
       "metadata": {
-        "return_type": "string",
         "files": [
-          "src/main/java/net/mcreator/layersofdescent/procedures/SinDisplayProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
+          "src/main/resources/data/layersofdescent/loot_tables/blocks/stone_tiles.json",
+          "src/main/resources/assets/layersofdescent/blockstates/stone_tiles.json",
+          "src/main/resources/assets/layersofdescent/models/block/stone_tiles.json",
+          "src/main/java/net/mcreator/layersofdescent/block/StoneTilesBlock.java",
+          "src/main/resources/assets/layersofdescent/models/item/stone_tiles.json"
         ]
       },
-      "path": "~/GUI/Procedures"
+      "path": "~/Blocks"
     },
     {
-      "name": "SelectSin",
-      "type": "procedure",
+      "name": "MossyStonePillar",
+      "type": "block",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "select_sin",
+      "registry_name": "mossy_stone_pillar",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/layersofdescent/procedures/SelectSinProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
+          "src/main/java/net/mcreator/layersofdescent/block/MossyStonePillarBlock.java",
+          "src/main/resources/assets/layersofdescent/models/item/mossy_stone_pillar.json",
+          "src/main/resources/assets/layersofdescent/blockstates/mossy_stone_pillar.json",
+          "src/main/resources/data/layersofdescent/loot_tables/blocks/mossy_stone_pillar.json",
+          "src/main/resources/assets/layersofdescent/models/block/mossy_stone_pillar.json"
         ]
       },
-      "path": "~/GUI/Procedures"
+      "path": "~/Blocks"
+    },
+    {
+      "name": "MossySmallStoneBricks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mossy_small_stone_bricks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/layersofdescent/loot_tables/blocks/mossy_small_stone_bricks.json",
+          "src/main/resources/assets/layersofdescent/models/item/mossy_small_stone_bricks.json",
+          "src/main/resources/assets/layersofdescent/blockstates/mossy_small_stone_bricks.json",
+          "src/main/java/net/mcreator/layersofdescent/block/MossySmallStoneBricksBlock.java",
+          "src/main/resources/assets/layersofdescent/models/block/mossy_small_stone_bricks.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "BlooditeBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloodite_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/layersofdescent/blockstates/bloodite_block.json",
+          "src/main/java/net/mcreator/layersofdescent/block/BlooditeBlockBlock.java",
+          "src/main/resources/assets/layersofdescent/models/block/bloodite_block.json",
+          "src/main/resources/data/layersofdescent/loot_tables/blocks/bloodite_block.json",
+          "src/main/resources/assets/layersofdescent/models/item/bloodite_block.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "LimboBlooditeClusterFeature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "limbo_bloodite_cluster_feature",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/layersofdescent/worldgen/placed_feature/limbo_bloodite_cluster_feature.json",
+          "src/main/resources/data/layersofdescent/forge/biome_modifier/limbo_bloodite_cluster_feature_biome_modifier.json",
+          "src/main/resources/data/layersofdescent/worldgen/configured_feature/limbo_bloodite_cluster_feature.json"
+        ]
+      },
+      "path": "~/Features/Limbo"
     }
   ],
   "variable_elements": [
@@ -1084,36 +1234,6 @@
       "value": ""
     },
     {
-      "name": "Sin",
-      "type": "string",
-      "scope": "player_persistent",
-      "value": ""
-    },
-    {
-      "name": "Strength",
-      "type": "number",
-      "scope": "player_persistent",
-      "value": "0"
-    },
-    {
-      "name": "StrengthModifier",
-      "type": "number",
-      "scope": "player_persistent",
-      "value": "0"
-    },
-    {
-      "name": "Agility",
-      "type": "number",
-      "scope": "player_persistent",
-      "value": "0"
-    },
-    {
-      "name": "AgilityModifier",
-      "type": "number",
-      "scope": "player_persistent",
-      "value": "0"
-    },
-    {
       "name": "Dexterity",
       "type": "number",
       "scope": "player_persistent",
@@ -1126,7 +1246,13 @@
       "value": "0"
     },
     {
-      "name": "Defense",
+      "name": "AgilityModifier",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "Agility",
       "type": "number",
       "scope": "player_persistent",
       "value": "0"
@@ -1144,7 +1270,31 @@
       "value": "0"
     },
     {
+      "name": "Sin",
+      "type": "string",
+      "scope": "player_persistent",
+      "value": ""
+    },
+    {
       "name": "MagicModifier",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "StrengthModifier",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "Strength",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "Defense",
       "type": "number",
       "scope": "player_persistent",
       "value": "0"
@@ -1162,6 +1312,14 @@
   ],
   "tag_elements": {
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:BlooditeBlock",
+      "~CUSTOM:MossySmallStoneBricks",
+      "~CUSTOM:MossyStonePillar",
+      "~CUSTOM:StoneTiles",
+      "~CUSTOM:LargeStoneBrick",
+      "~CUSTOM:CrackedStoneTiles",
+      "~CUSTOM:MossyStoneTiles",
+      "~CUSTOM:BlooditeCluster",
       "~CUSTOM:CrackedStonePillar",
       "~CUSTOM:CrackedSmallStoneBricks",
       "~CUSTOM:StonePillar",
@@ -1185,9 +1343,8 @@
       "gui.layersofdescent.class_selection.button_ssl": "§l\u003e",
       "advancements.layers_of_descension.descr": "Begin Your Journey To The Top, Starting At Limbo.",
       "block.layersofdescent.jade_block": "Jade Block",
-      "item_group.layersofdescent.lod_blocks": "Blocks",
       "item.layersofdescent.limbo": "TEMP",
-      "gui.layersofdescent.sin_selection.button_ssl": "§l\u003e",
+      "item_group.layersofdescent.lod_blocks": "Blocks",
       "item.layersofdescent.sapphire": "Sapphire",
       "gui.layersofdescent.class_selection.label_sslselect_your_class": "§lSelect Your Class",
       "gui.layersofdescent.class_selection.button_select": "Select",
@@ -1201,7 +1358,6 @@
       "item.layersofdescent.topaz": "Topaz",
       "biome.layersofdescent.limbo_caves": "Limbo Caves",
       "block.layersofdescent.jade_cluster": "Jade Cluster",
-      "gui.layersofdescent.sin_selection.button_select": "Select",
       "item_group.layersofdescent.lod_items": "Items",
       "block.layersofdescent.small_stone_bricks": "Small Stone Bricks",
       "block.layersofdescent.sapphire_block": "Sapphire Block",
@@ -1209,9 +1365,7 @@
       "advancements.layers_of_descension.title": "Layers Of Descension",
       "block.layersofdescent.sapphire_cluster": "Sapphire Cluster",
       "block.layersofdescent.cracked_stone_pillar": "Cracked Stone Pillar",
-      "block.layersofdescent.topaz_block": "Topaz Block",
-      "gui.layersofdescent.sin_selection.label_sslselect_your_sin": "§lSelect Your Sin",
-      "gui.layersofdescent.sin_selection.button_ssl1": "§l\u003c"
+      "block.layersofdescent.topaz_block": "Topaz Block"
     }
   },
   "foldersRoot": {

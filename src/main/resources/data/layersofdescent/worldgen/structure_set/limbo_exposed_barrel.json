@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "layersofdescent:limbo_exposed_barrel",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 10,
+    "separation": 5,
+    "salt": 1461449638
+  }
+}

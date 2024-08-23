@@ -1172,21 +1172,6 @@
       "path": "~/Blocks"
     },
     {
-      "name": "LimboBlooditeClusterFeature",
-      "type": "feature",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "limbo_bloodite_cluster_feature",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/layersofdescent/worldgen/placed_feature/limbo_bloodite_cluster_feature.json",
-          "src/main/resources/data/layersofdescent/forge/biome_modifier/limbo_bloodite_cluster_feature_biome_modifier.json",
-          "src/main/resources/data/layersofdescent/worldgen/configured_feature/limbo_bloodite_cluster_feature.json"
-        ]
-      },
-      "path": "~/Features/Limbo"
-    },
-    {
       "name": "PlayerDeath",
       "type": "procedure",
       "compiles": true,
@@ -1371,6 +1356,79 @@
         ]
       },
       "path": "~/Overlay/Procedures"
+    },
+    {
+      "name": "LimboGeneric",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "limbo_generic",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/layersofdescent/loot_tables/chests/limbo_generic.json"
+        ]
+      },
+      "path": "~/Misc/Loot Tables"
+    },
+    {
+      "name": "LimboRuinedHome",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "limbo_ruined_home",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/layersofdescent/worldgen/template_pool/limbo_ruined_home.json",
+          "src/main/resources/data/layersofdescent/worldgen/structure/limbo_ruined_home.json",
+          "src/main/resources/data/layersofdescent/worldgen/structure_set/limbo_ruined_home.json"
+        ]
+      },
+      "path": "~/Structures/Limbo"
+    },
+    {
+      "name": "LimboRuinedTower",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "limbo_ruined_tower",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/layersofdescent/worldgen/structure_set/limbo_ruined_tower.json",
+          "src/main/resources/data/layersofdescent/worldgen/structure/limbo_ruined_tower.json",
+          "src/main/resources/data/layersofdescent/worldgen/template_pool/limbo_ruined_tower.json"
+        ]
+      },
+      "path": "~/Structures/Limbo"
+    },
+    {
+      "name": "LimboCrystalStorehouse",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "limbo_crystal_storehouse",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/layersofdescent/worldgen/template_pool/limbo_crystal_storehouse.json",
+          "src/main/resources/data/layersofdescent/worldgen/structure_set/limbo_crystal_storehouse.json",
+          "src/main/resources/data/layersofdescent/worldgen/structure/limbo_crystal_storehouse.json"
+        ]
+      },
+      "path": "~/Structures/Limbo"
+    },
+    {
+      "name": "LimboExposedBarrel",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "limbo_exposed_barrel",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/layersofdescent/worldgen/structure_set/limbo_exposed_barrel.json",
+          "src/main/resources/data/layersofdescent/worldgen/structure/limbo_exposed_barrel.json",
+          "src/main/resources/data/layersofdescent/worldgen/template_pool/limbo_exposed_barrel.json"
+        ]
+      },
+      "path": "~/Structures/Limbo"
     }
   ],
   "variable_elements": [
@@ -1625,6 +1683,10 @@
           {
             "name": "Tabs",
             "children": []
+          },
+          {
+            "name": "Loot Tables",
+            "children": []
           }
         ]
       },
@@ -1677,6 +1739,15 @@
         "children": [
           {
             "name": "Procedures",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Structures",
+        "children": [
+          {
+            "name": "Limbo",
             "children": []
           }
         ]

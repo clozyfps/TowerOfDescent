@@ -16,4 +16,5 @@ import net.mcreator.layersofdescent.LayersofdescentMod;
 public class LayersofdescentModSounds {
 	public static final DeferredRegister<SoundEvent> REGISTRY = DeferredRegister.create(ForgeRegistries.SOUND_EVENTS, LayersofdescentMod.MODID);
 	public static final RegistryObject<SoundEvent> VOICE = REGISTRY.register("voice", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("layersofdescent", "voice")));
+	public static final RegistryObject<SoundEvent> LIMBOTHEME = REGISTRY.register("limbotheme", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("layersofdescent", "limbotheme")));
 }

@@ -287,7 +287,7 @@ public class LayersofdescentModVariables {
 		public String PlayerClass = "";
 		public String LayerOn = "";
 		public String SelectedClassScreen = "Nether Weaver";
-		public String SelectedSinScreen = "";
+		public String SelectedSinScreen = "Wrath";
 		public double Dexterity = 0;
 		public double DexterityModifier = 0;
 		public double AgilityModifier = 0;

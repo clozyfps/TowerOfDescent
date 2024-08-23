@@ -1432,7 +1432,7 @@
       "name": "SelectedSinScreen",
       "type": "string",
       "scope": "player_persistent",
-      "value": ""
+      "value": "Wrath"
     },
     {
       "name": "Dexterity",
@@ -1521,6 +1521,14 @@
       ],
       "category": "neutral",
       "subtitle": ""
+    },
+    {
+      "name": "limbotheme",
+      "files": [
+        "nothingon"
+      ],
+      "category": "neutral",
+      "subtitle": ""
     }
   ],
   "tag_elements": {
@@ -1571,6 +1579,7 @@
       "item.layersofdescent.test_item": "Test Item",
       "subtitles.voice": "",
       "item.layersofdescent.bloodite": "Bloodite",
+      "subtitles.limbotheme": "",
       "block.layersofdescent.topaz_cluster": "Topaz Cluster",
       "block.layersofdescent.bloodite_block": "Bloodite Block",
       "block.layersofdescent.mossy_stone": "Mossy Stone",

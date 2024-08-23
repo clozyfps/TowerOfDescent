@@ -3,6 +3,7 @@
   "temperature": 0.5,
   "downfall": 0.5,
   "effects": {
+    "ambient_sound": "layersofdescent:limbotheme",
     "foliage_color": -7890868,
     "grass_color": -7031214,
     "sky_color": 7972607,
@@ -13,7 +14,14 @@
   "spawners": {
     "monster": [],
     "creature": [],
-    "ambient": [],
+    "ambient": [
+      {
+        "type": "skeleton",
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 4
+      }
+    ],
     "axolotls": [],
     "underground_water_creature": [],
     "water_creature": [],
